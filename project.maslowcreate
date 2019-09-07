@@ -12,8 +12,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 316,
-                    "y": 127,
+                    "x": 215,
+                    "y": 85,
                     "uniqueID": 999347,
                     "ioValues": [
                         {
@@ -29,8 +29,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 316,
-                    "y": 232,
+                    "x": 237,
+                    "y": 241,
                     "uniqueID": 884079,
                     "ioValues": [
                         {
@@ -46,42 +46,21 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 504,
-                    "y": 164,
+                    "x": 420,
+                    "y": 161,
                     "uniqueID": 470913,
                     "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 694,
-                    "y": 153,
+                    "x": 659,
+                    "y": 140,
                     "uniqueID": 775997,
                     "ioValues": [
                         {
                             "name": "height",
                             "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 828,
-                    "y": 237,
-                    "uniqueID": 221631,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -116,12 +95,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 775997
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 775997,
-                    "ap2ID": 221631
                 }
             ],
             "fileTypeVersion": 1
