@@ -10,6 +10,61 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 316,
+                    "y": 127,
+                    "uniqueID": 999347,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 100
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 316,
+                    "y": 232,
+                    "uniqueID": 884079,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 504,
+                    "y": 164,
+                    "uniqueID": 470913,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 694,
+                    "y": 153,
+                    "uniqueID": 775997,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 7
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +72,31 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 999347,
+                    "ap2ID": 470913
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 884079,
+                    "ap2ID": 470913
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 470913,
+                    "ap2ID": 775997
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 775997
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
