@@ -46,16 +46,16 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 420,
-                    "y": 161,
+                    "x": 409,
+                    "y": 167,
                     "uniqueID": 470913,
                     "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 659,
-                    "y": 140,
+                    "x": 636,
+                    "y": 144,
                     "uniqueID": 775997,
                     "ioValues": [
                         {
@@ -67,8 +67,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 909,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
