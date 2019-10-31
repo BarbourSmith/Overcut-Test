@@ -12,7 +12,7 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 215,
+                    "x": 157,
                     "y": 85,
                     "uniqueID": 999347,
                     "ioValues": [
@@ -29,8 +29,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 237,
-                    "y": 241,
+                    "x": 165,
+                    "y": 246,
                     "uniqueID": 884079,
                     "ioValues": [
                         {
@@ -46,16 +46,16 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 409,
-                    "y": 167,
+                    "x": 335,
+                    "y": 155,
                     "uniqueID": 470913,
                     "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 636,
-                    "y": 144,
+                    "x": 599,
+                    "y": 163,
                     "uniqueID": 775997,
                     "ioValues": [
                         {
