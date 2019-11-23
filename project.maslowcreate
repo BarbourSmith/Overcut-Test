@@ -65,6 +65,27 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 768,
+                    "y": 80,
+                    "uniqueID": 839134,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Svg",
                     "name": "Svg",
                     "x": 851,
@@ -109,6 +130,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 775997,
                     "ap2ID": 183105
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 775997,
+                    "ap2ID": 839134
                 }
             ],
             "fileTypeVersion": 1
