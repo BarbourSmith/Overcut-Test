@@ -96,8 +96,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 920,
-                    "y": 57,
+                    "x": 944,
+                    "y": 55,
                     "uniqueID": 510546,
                     "ioValues": [],
                     "selectedColorIndex": "6"
