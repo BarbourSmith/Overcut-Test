@@ -103,6 +103,14 @@
                     "selectedColorIndex": "2"
                 },
                 {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 1005,
+                    "y": 190,
+                    "uniqueID": 368486,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
