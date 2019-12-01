@@ -3,12 +3,35 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 578,
-            "y": 230,
+            "x": 502,
+            "y": 248,
             "uniqueID": 336139,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input 2",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input 1",
+                    "x": 15,
+                    "y": 118,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input 2",
+                    "x": 15,
+                    "y": 216,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -97,6 +120,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 502,
+                    "y": 248,
+                    "uniqueID": 336139,
+                    "ioValues": [
+                        {
+                            "name": "Input 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 596,
@@ -108,14 +148,6 @@
                             "ioValue": 7
                         }
                     ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 578,
-                    "y": 230,
-                    "uniqueID": 336139,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
