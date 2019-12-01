@@ -3,9 +3,29 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 502,
-            "y": 248,
+            "x": 348,
+            "y": 254,
             "uniqueID": 336139,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 551,
+            "y": 246,
+            "uniqueID": 347004,
             "ioValues": [
                 {
                     "name": "Input 1",
@@ -122,9 +142,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 502,
-                    "y": 248,
+                    "x": 348,
+                    "y": 254,
                     "uniqueID": 336139,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 551,
+                    "y": 246,
+                    "uniqueID": 347004,
                     "ioValues": [
                         {
                             "name": "Input 1",
