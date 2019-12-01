@@ -2,6 +2,26 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 424,
+            "y": 234,
+            "uniqueID": 644905,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Overcut Test",
             "x": 0,
             "y": 0,
@@ -49,6 +69,14 @@
                     "x": 335,
                     "y": 155,
                     "uniqueID": 470913,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 424,
+                    "y": 234,
+                    "uniqueID": 644905,
                     "ioValues": []
                 },
                 {
