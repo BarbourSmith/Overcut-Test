@@ -3,9 +3,9 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 424,
-            "y": 234,
-            "uniqueID": 644905,
+            "x": 578,
+            "y": 230,
+            "uniqueID": 336139,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
@@ -26,9 +26,26 @@
             "x": 0,
             "y": 0,
             "uniqueID": 475516,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input 2",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input 1",
+                    "x": 15,
+                    "y": 118,
+                    "uniqueID": 951948,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -45,6 +62,14 @@
                             "ioValue": 100
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input 2",
+                    "x": 15,
+                    "y": 216,
+                    "uniqueID": 654277,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -72,14 +97,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 424,
-                    "y": 234,
-                    "uniqueID": 644905,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 596,
@@ -91,6 +108,14 @@
                             "ioValue": 7
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 578,
+                    "y": 230,
+                    "uniqueID": 336139,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
