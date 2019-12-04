@@ -43,14 +43,24 @@
                     "name": "Input 1",
                     "x": 15,
                     "y": 118,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
                     "name": "Input 2",
                     "x": 15,
                     "y": 216,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -87,7 +97,12 @@
                     "x": 15,
                     "y": 118,
                     "uniqueID": 951948,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -112,7 +127,12 @@
                     "x": 15,
                     "y": 216,
                     "uniqueID": 654277,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
