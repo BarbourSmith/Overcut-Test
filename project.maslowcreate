@@ -43,24 +43,14 @@
                     "name": "Input 1",
                     "x": 15,
                     "y": 118,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Input 2",
                     "x": 15,
                     "y": 216,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -82,7 +72,7 @@
             "ioValues": [
                 {
                     "name": "Input 1",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "Input 2",
@@ -97,12 +87,7 @@
                     "x": 15,
                     "y": 118,
                     "uniqueID": 951948,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -127,12 +112,7 @@
                     "x": 15,
                     "y": 216,
                     "uniqueID": 654277,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -268,41 +248,48 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 999347,
                     "ap2ID": 470913
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
+                    "ap2Primary": false,
                     "ap1ID": 884079,
                     "ap2ID": 470913
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 470913,
                     "ap2ID": 775997
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 775997
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": false,
                     "ap1ID": 775997,
                     "ap2ID": 183105
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 775997,
                     "ap2ID": 839134
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 839134,
                     "ap2ID": 510546
                 }
