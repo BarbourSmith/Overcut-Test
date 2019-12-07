@@ -36,110 +36,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 722,
-            "y": 261,
-            "uniqueID": 507830,
-            "ioValues": [
-                {
-                    "name": "Input 1",
-                    "ioValue": 100
-                },
-                {
-                    "name": "Input 2",
-                    "ioValue": 10
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Input 1",
-                    "x": 15,
-                    "y": 118,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input 2",
-                    "x": 15,
-                    "y": 216,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 203,
-                    "y": 152,
-                    "uniqueID": 745826,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 100
-                        }
-                    ],
-                    "currentEquation": "x + y"
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 611,
-                    "y": 127,
-                    "uniqueID": 782459,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 101
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap2Primary": false,
-                    "ap2ID": 745826
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap2ID": 745826
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "x length",
-                    "ap2Primary": false,
-                    "ap1ID": 745826,
-                    "ap2ID": 782459
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 782459
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Overcut Test",
             "x": 0,
             "y": 0,
@@ -265,23 +161,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 722,
-                    "y": 261,
-                    "uniqueID": 507830,
-                    "ioValues": [
-                        {
-                            "name": "Input 1",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "Input 2",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Translate",
