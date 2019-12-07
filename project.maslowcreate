@@ -3,26 +3,6 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 348,
-            "y": 254,
-            "uniqueID": 336139,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
             "x": 551,
             "y": 246,
             "uniqueID": 347004,
@@ -131,18 +111,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 348,
-                    "y": 254,
-                    "uniqueID": 336139,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 497,
-                    "y": 84,
+                    "x": 344,
+                    "y": 284,
                     "uniqueID": 512857,
                     "ioValues": [
                         {
@@ -150,6 +122,15 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 579,
+                    "y": 75,
+                    "uniqueID": 756095,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Molecule",
