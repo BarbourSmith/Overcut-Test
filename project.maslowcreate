@@ -12,14 +12,14 @@
                 {
                     "atomType": "Input",
                     "name": "Input 1",
-                    "x": 15,
+                    "x": 30,
                     "y": 118,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Input 2",
-                    "x": 15,
+                    "x": 30,
                     "y": 216,
                     "ioValues": []
                 },
@@ -55,7 +55,7 @@
                 {
                     "atomType": "Input",
                     "name": "Input 1",
-                    "x": 15,
+                    "x": 30,
                     "y": 118,
                     "uniqueID": 951948,
                     "ioValues": []
@@ -80,7 +80,7 @@
                 {
                     "atomType": "Input",
                     "name": "Input 2",
-                    "x": 15,
+                    "x": 30,
                     "y": 216,
                     "uniqueID": 654277,
                     "ioValues": []
