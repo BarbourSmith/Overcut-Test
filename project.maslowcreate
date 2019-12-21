@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 551,
-            "y": 246,
+            "x": 547,
+            "y": 240,
             "uniqueID": 347004,
             "ioValues": [],
             "topLevel": false,
@@ -126,8 +126,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 551,
-                    "y": 246,
+                    "x": 547,
+                    "y": 240,
                     "uniqueID": 347004,
                     "ioValues": []
                 },
@@ -186,8 +186,8 @@
                 {
                     "atomType": "OverCutCorners",
                     "name": "Over Cut Corners",
-                    "x": 844,
-                    "y": 227,
+                    "x": 808,
+                    "y": 230,
                     "uniqueID": 441134,
                     "ioValues": [
                         {
@@ -259,13 +259,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 470913,
-                    "ap2ID": 441134
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Input 2",
                     "ap2Primary": false,
                     "ap1ID": 512857,
@@ -290,6 +283,13 @@
                     "ap2Primary": false,
                     "ap1ID": 775997,
                     "ap2ID": 756095
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 775997,
+                    "ap2ID": 441134
                 },
                 {
                     "ap1Name": "geometry",
