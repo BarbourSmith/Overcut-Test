@@ -189,7 +189,12 @@
                     "x": 844,
                     "y": 227,
                     "uniqueID": 441134,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6.35
+                        }
+                    ]
                 },
                 {
                     "atomType": "Color",
@@ -254,7 +259,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "diameter",
+                    "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 470913,
                     "ap2ID": 441134
