@@ -2,40 +2,6 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 547,
-            "y": 240,
-            "uniqueID": 347004,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Input 1",
-                    "x": 30,
-                    "y": 118,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Input 2",
-                    "x": 30,
-                    "y": 216,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Overcut Test",
             "x": 0,
             "y": 0,
@@ -111,27 +77,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 344,
-                    "y": 284,
-                    "uniqueID": 512857,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 547,
-                    "y": 240,
-                    "uniqueID": 347004,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 596,
@@ -186,8 +131,8 @@
                 {
                     "atomType": "OverCutCorners",
                     "name": "Over Cut Corners",
-                    "x": 811,
-                    "y": 271,
+                    "x": 894,
+                    "y": 240,
                     "uniqueID": 441134,
                     "ioValues": [
                         {
@@ -204,14 +149,6 @@
                     "uniqueID": 510546,
                     "ioValues": [],
                     "selectedColorIndex": "2"
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 991,
-                    "y": 213,
-                    "uniqueID": 973281,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Svg",
@@ -253,24 +190,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Input 1",
-                    "ap2Primary": false,
-                    "ap1ID": 470913,
-                    "ap2ID": 347004
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 252578",
                     "ap2Primary": false,
                     "ap1ID": 470913,
                     "ap2ID": 756095
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Input 2",
-                    "ap2Primary": false,
-                    "ap1ID": 512857,
-                    "ap2ID": 347004
                 },
                 {
                     "ap1Name": "geometry",
@@ -301,13 +224,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 775997,
-                    "ap2ID": 973281
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 756095,
@@ -319,13 +235,6 @@
                     "ap2Primary": true,
                     "ap1ID": 839134,
                     "ap2ID": 510546
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 441134,
-                    "ap2ID": 973281
                 }
             ],
             "fileTypeVersion": 1
