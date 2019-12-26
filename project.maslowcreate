@@ -131,8 +131,8 @@
                 {
                     "atomType": "OverCutCorners",
                     "name": "Over Cut Corners",
-                    "x": 894,
-                    "y": 240,
+                    "x": 765,
+                    "y": 227,
                     "uniqueID": 441134,
                     "ioValues": [
                         {
