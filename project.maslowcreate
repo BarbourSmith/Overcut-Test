@@ -77,6 +77,15 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 401,
+                    "y": 242,
+                    "uniqueID": 121685,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 569,
