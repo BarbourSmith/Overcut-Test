@@ -29,8 +29,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 157,
-                    "y": 85,
+                    "x": 162,
+                    "y": 82,
                     "uniqueID": 999347,
                     "ioValues": [
                         {
@@ -54,8 +54,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 165,
-                    "y": 246,
+                    "x": 162,
+                    "y": 250,
                     "uniqueID": 884079,
                     "ioValues": [
                         {
@@ -140,8 +140,8 @@
                 {
                     "atomType": "OverCutCorners",
                     "name": "Over Cut Corners",
-                    "x": 765,
-                    "y": 227,
+                    "x": 783,
+                    "y": 237,
                     "uniqueID": 441134,
                     "ioValues": [
                         {
@@ -162,8 +162,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 987,
-                    "y": 219,
+                    "x": 1020,
+                    "y": 234,
                     "uniqueID": 119541,
                     "ioValues": [],
                     "BOMitem": {
