@@ -160,6 +160,21 @@
                     "selectedColorIndex": "2"
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 987,
+                    "y": 219,
+                    "uniqueID": 119541,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Svg",
                     "name": "Svg",
                     "x": 1087,
@@ -244,6 +259,13 @@
                     "ap2Primary": true,
                     "ap1ID": 839134,
                     "ap2ID": 510546
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 441134,
+                    "ap2ID": 119541
                 }
             ],
             "fileTypeVersion": 1
