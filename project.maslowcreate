@@ -140,8 +140,8 @@
                 {
                     "atomType": "OverCutCorners",
                     "name": "Over Cut Corners",
-                    "x": 783,
-                    "y": 237,
+                    "x": 837,
+                    "y": 128,
                     "uniqueID": 441134,
                     "ioValues": [
                         {
@@ -149,6 +149,14 @@
                             "ioValue": 6.35
                         }
                     ]
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 843,
+                    "y": 235,
+                    "uniqueID": 183105,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Color",
@@ -162,8 +170,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1020,
-                    "y": 234,
+                    "x": 1111,
+                    "y": 143,
                     "uniqueID": 119541,
                     "ioValues": [],
                     "BOMitem": {
@@ -173,14 +181,6 @@
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
-                },
-                {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 1087,
-                    "y": 95,
-                    "uniqueID": 183105,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
