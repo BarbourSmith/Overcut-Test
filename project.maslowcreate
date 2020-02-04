@@ -79,8 +79,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 418,
-                    "y": 228,
+                    "x": 359,
+                    "y": 146,
                     "uniqueID": 408614,
                     "ioValues": [
                         {
@@ -96,14 +96,10 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 554,
-                    "y": 244,
+                    "x": 408,
+                    "y": 227,
                     "uniqueID": 708233,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "height",
                             "ioValue": 10
@@ -122,6 +118,14 @@
                             "ioValue": 7
                         }
                     ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 605,
+                    "y": 139,
+                    "uniqueID": 371542,
+                    "ioValues": []
                 },
                 {
                     "atomType": "OverCut-Corners",
@@ -212,6 +216,20 @@
                     "ap2Primary": true,
                     "ap1ID": 470913,
                     "ap2ID": 775997
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 408614,
+                    "ap2ID": 708233
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 708233,
+                    "ap2ID": 371542
                 },
                 {
                     "ap1Name": "geometry",
