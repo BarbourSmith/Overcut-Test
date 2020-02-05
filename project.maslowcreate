@@ -236,13 +236,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 775997,
-                    "ap2ID": 183105
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 775997,
                     "ap2ID": 664591
                 },
                 {
@@ -251,6 +244,13 @@
                     "ap2Primary": true,
                     "ap1ID": 664591,
                     "ap2ID": 839134
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 664591,
+                    "ap2ID": 183105
                 },
                 {
                     "ap1Name": "geometry",
