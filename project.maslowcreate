@@ -8,12 +8,12 @@
             "uniqueID": 475516,
             "ioValues": [
                 {
-                    "name": "Input 1",
-                    "ioValue": 100
-                },
-                {
                     "name": "Input 2",
                     "ioValue": 10
+                },
+                {
+                    "name": "Input 1",
+                    "ioValue": 100
                 }
             ],
             "topLevel": true,
