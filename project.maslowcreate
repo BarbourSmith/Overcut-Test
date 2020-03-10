@@ -38,39 +38,9 @@
             "x": 0.34773060029282576,
             "y": 0.7701149425287357,
             "uniqueID": 819509,
-            "ioValues": [
-                {
-                    "name": "A test input",
-                    "ioValue": 20
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "A test input",
-                    "x": 0.04904831625183016,
-                    "y": 0.47126436781609193,
-                    "uniqueID": 826151,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.34992679355783307,
-                    "y": 0.5134099616858238,
-                    "uniqueID": 255188,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -79,27 +49,13 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
-                    "ap2Primary": false,
-                    "ap1ID": 826151,
-                    "ap2ID": 255188
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 255188
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5841874084919473,
+            "x": 0.5951683748169839,
             "y": 0.7049808429118775,
             "uniqueID": 605247,
             "ioValues": [
