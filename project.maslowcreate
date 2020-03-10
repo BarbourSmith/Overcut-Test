@@ -33,6 +33,83 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.34773060029282576,
+            "y": 0.7701149425287357,
+            "uniqueID": 819509,
+            "ioValues": [
+                {
+                    "name": "A test input",
+                    "ioValue": 20
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "A test input",
+                    "x": 0.04904831625183016,
+                    "y": 0.47126436781609193,
+                    "uniqueID": 826151,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.34992679355783307,
+                    "y": 0.5134099616858238,
+                    "uniqueID": 255188,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 826151,
+                    "ap2ID": 255188
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 255188
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5841874084919473,
+            "y": 0.7049808429118775,
+            "uniqueID": 605247,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -53,6 +130,13 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 693092
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 819509,
+            "ap2ID": 605247
         }
     ],
     "fileTypeVersion": 1,
