@@ -2,9 +2,9 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.3448023426061494,
-            "y": 0.685823754789272,
+            "name": "Lower Level Molecule",
+            "x": 0.349194729136164,
+            "y": 0.6973180076628352,
             "uniqueID": 732951,
             "ioValues": [],
             "topLevel": false,
@@ -34,7 +34,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 404455
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -48,8 +55,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.23572474377745242,
-                    "y": 0.24904214559386972,
+                    "x": 0.2445095168374817,
+                    "y": 0.42911877394636017,
                     "uniqueID": 696623,
                     "ioValues": [
                         {
@@ -60,9 +67,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.3448023426061494,
-                    "y": 0.685823754789272,
+                    "name": "Lower Level Molecule",
+                    "x": 0.349194729136164,
+                    "y": 0.6973180076628352,
                     "uniqueID": 732951,
                     "ioValues": []
                 },
