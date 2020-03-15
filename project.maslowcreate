@@ -2,6 +2,26 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Double Inside Molecule",
+            "x": 0.45241581259150804,
+            "y": 0.8045977011494253,
+            "uniqueID": 583853,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Lower Level Molecule",
             "x": 0.349194729136164,
             "y": 0.6973180076628352,
@@ -25,6 +45,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Double Inside Molecule",
+                    "x": 0.45241581259150804,
+                    "y": 0.8045977011494253,
+                    "uniqueID": 583853,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
