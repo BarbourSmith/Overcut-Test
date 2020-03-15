@@ -10,10 +10,24 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.31259150805270863,
+                    "y": 0.4444444444444444,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.4363103953147877,
+                    "y": 0.6168582375478927,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.2562225475841874,
+                    "y": 0.8237547892720306,
                     "ioValues": []
                 },
                 {
@@ -42,13 +56,6 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -63,6 +70,13 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.31259150805270863,
+                    "y": 0.4444444444444444,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -81,18 +95,25 @@
                     ]
                 },
                 {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.4363103953147877,
+                    "y": 0.6168582375478927,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Box",
+                    "name": "Box",
+                    "x": 0.2562225475841874,
+                    "y": 0.8237547892720306,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Double Inside Molecule",
                     "x": 0.45241581259150804,
                     "y": 0.8045977011494253,
                     "uniqueID": 583853,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -117,8 +138,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.38653001464128844,
-                    "y": 0.2567049808429119,
+                    "x": 0.3513909224011713,
+                    "y": 0.2375478927203065,
                     "uniqueID": 109053,
                     "ioValues": [
                         {
@@ -130,8 +151,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16544655929721816,
-                    "y": 0.4367816091954023,
+                    "x": 0.1390922401171303,
+                    "y": 0.4176245210727969,
                     "uniqueID": 696623,
                     "ioValues": [
                         {
@@ -154,13 +175,6 @@
                     "x": 0.349194729136164,
                     "y": 0.6973180076628352,
                     "uniqueID": 732951,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
                     "ioValues": []
                 },
                 {
