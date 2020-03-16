@@ -10,24 +10,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.31259150805270863,
-                    "y": 0.4444444444444444,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.4363103953147877,
-                    "y": 0.6168582375478927,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.2562225475841874,
-                    "y": 0.8237547892720306,
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -56,6 +42,13 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -70,13 +63,6 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.31259150805270863,
-                    "y": 0.4444444444444444,
-                    "ioValues": []
-                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -95,25 +81,18 @@
                     ]
                 },
                 {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.4363103953147877,
-                    "y": 0.6168582375478927,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.2562225475841874,
-                    "y": 0.8237547892720306,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Double Inside Molecule",
                     "x": 0.45241581259150804,
                     "y": 0.8045977011494253,
                     "uniqueID": 583853,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -175,6 +154,22 @@
                     "x": 0.349194729136164,
                     "y": 0.6973180076628352,
                     "uniqueID": 732951,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Github Molecule",
+                    "x": 0.5944363103953147,
+                    "y": 0.7203065134099617,
+                    "uniqueID": 522344,
+                    "projectID": "247363759",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
