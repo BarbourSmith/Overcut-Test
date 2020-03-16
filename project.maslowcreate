@@ -29,6 +29,13 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -43,6 +50,13 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -122,6 +136,13 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -178,6 +199,22 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Measure Bounds",
+                    "x": 0.5512445095168375,
+                    "y": 0.5862068965517242,
+                    "uniqueID": 532378,
+                    "projectID": "247363759",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -200,6 +237,13 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 109053,
+                    "ap2ID": 532378
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
