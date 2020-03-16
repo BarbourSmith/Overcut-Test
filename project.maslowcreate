@@ -43,6 +43,13 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -108,6 +115,13 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -129,10 +143,6 @@
                     "uniqueID": 109053,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "height",
                             "ioValue": 10
                         }
@@ -141,8 +151,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1390922401171303,
-                    "y": 0.4176245210727969,
+                    "x": 0.1588579795021962,
+                    "y": 0.42911877394636017,
                     "uniqueID": 696623,
                     "ioValues": [
                         {
@@ -168,6 +178,22 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Measure Bounds",
+                    "x": 0.5775988286969254,
+                    "y": 0.7088122605363985,
+                    "uniqueID": 532378,
+                    "projectID": "247363759",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -203,7 +229,22 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 109053,
+                    "ap2ID": 532378
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 696623,
+                    "ap2ID": 109053
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
