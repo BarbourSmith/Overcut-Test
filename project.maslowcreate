@@ -36,40 +36,6 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Double Inside Molecule",
-            "x": 0.45241581259150804,
-            "y": 0.8045977011494253,
-            "uniqueID": 583853,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -109,11 +75,10 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Double Inside Molecule",
-                    "x": 0.45241581259150804,
-                    "y": 0.8045977011494253,
-                    "uniqueID": 583853,
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -164,6 +129,10 @@
                     "uniqueID": 109053,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "height",
                             "ioValue": 10
                         }
@@ -199,12 +168,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Measure Bounds",
-                    "x": 0.5512445095168375,
-                    "y": 0.5862068965517242,
-                    "uniqueID": 532378,
-                    "projectID": "247363759",
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -236,22 +203,7 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 109053,
-                    "ap2ID": 532378
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 696623,
-                    "ap2ID": 109053
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         }
     ],
