@@ -26,7 +26,12 @@
             "x": 0.3501454898157129,
             "y": 0.7126436781609194,
             "uniqueID": 732951,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input892236",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -88,6 +93,10 @@
                     "uniqueID": 109053,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "height",
                             "ioValue": 10
                         }
@@ -120,7 +129,12 @@
                     "x": 0.3501454898157129,
                     "y": 0.7126436781609194,
                     "uniqueID": 732951,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Input892236",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
