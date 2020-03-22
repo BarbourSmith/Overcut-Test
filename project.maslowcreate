@@ -15,41 +15,6 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [],
@@ -58,12 +23,20 @@
         {
             "atomType": "Molecule",
             "name": "Lower Level Molecule",
-            "x": 0.349194729136164,
-            "y": 0.6973180076628352,
+            "x": 0.3501454898157129,
+            "y": 0.7126436781609194,
             "uniqueID": 732951,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input892236",
+                    "x": 0.08147429679922405,
+                    "y": 0.4674329501915709,
+                    "uniqueID": 836732,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -87,44 +60,16 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 404455
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -138,8 +83,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.36163982430453884,
-                    "y": 0.24904214559386972,
+                    "x": 0.36566440349175555,
+                    "y": 0.22605363984674332,
                     "uniqueID": 109053,
                     "ioValues": [
                         {
@@ -172,53 +117,9 @@
                 {
                     "atomType": "Molecule",
                     "name": "Lower Level Molecule",
-                    "x": 0.349194729136164,
-                    "y": 0.6973180076628352,
+                    "x": 0.3501454898157129,
+                    "y": 0.7126436781609194,
                     "uniqueID": 732951,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Measure Bounds",
-                    "x": 0.5775988286969254,
-                    "y": 0.7088122605363985,
-                    "uniqueID": 532378,
-                    "projectID": "247363759",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
                     "ioValues": []
                 },
                 {
@@ -232,17 +133,17 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 109053,
-                    "ap2ID": 532378
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 696623,
                     "ap2ID": 109053
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Input892236",
+                    "ap2Primary": false,
+                    "ap1ID": 696623,
+                    "ap2ID": 732951
                 }
             ],
             "fileTypeVersion": 1
