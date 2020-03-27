@@ -151,10 +151,6 @@
                     "uniqueID": 737163,
                     "ioValues": [
                         {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 4",
                             "ioValue": 10
                         },
@@ -194,13 +190,6 @@
                     "ap2Primary": true,
                     "ap1ID": 696623,
                     "ap2ID": 872225
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 872225,
-                    "ap2ID": 737163
                 },
                 {
                     "ap1Name": "geometry",
