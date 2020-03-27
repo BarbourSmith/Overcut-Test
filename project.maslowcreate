@@ -12,7 +12,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9806013579049467,
+                    "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
                 }
@@ -57,7 +57,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9806013579049467,
+                    "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
                 }
@@ -115,18 +115,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Lower Level Molecule",
-                    "x": 0.33074684772065954,
-                    "y": 0.7011494252873564,
-                    "uniqueID": 732951,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7061105722599418,
-                    "y": 0.6130268199233716,
+                    "x": 0.5307467057101025,
+                    "y": 0.5478927203065134,
                     "uniqueID": 309001,
                     "ioValues": [
                         {
@@ -143,6 +135,14 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Lower Level Molecule",
+                    "x": 0.33074684772065954,
+                    "y": 0.7011494252873564,
+                    "uniqueID": 732951,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -166,9 +166,47 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.7679355783308931,
+                    "y": 0.6168582375478927,
+                    "uniqueID": 487406,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 0.6317715959004392,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 679785,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9806013579049467,
+                    "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
                 }
