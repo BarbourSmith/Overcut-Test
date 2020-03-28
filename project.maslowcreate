@@ -216,6 +216,32 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Proportional Shift",
+                    "x": 0.7875848690591659,
+                    "y": 0.6398467432950191,
+                    "uniqueID": 191174,
+                    "projectID": "187933479",
+                    "ioValues": [
+                        {
+                            "name": "X",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Y",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "ScaleX",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "ScaleY",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -279,6 +305,13 @@
                     "ap2Primary": false,
                     "ap1ID": 872225,
                     "ap2ID": 833054
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 687515,
+                    "ap2ID": 191174
                 }
             ],
             "fileTypeVersion": 1
