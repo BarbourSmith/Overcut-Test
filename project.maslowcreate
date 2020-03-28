@@ -216,32 +216,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Proportional Shift",
-                    "x": 0.7546071774975751,
-                    "y": 0.7892720306513409,
-                    "uniqueID": 761197,
-                    "projectID": "187933479",
-                    "ioValues": [
-                        {
-                            "name": "X",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "Y",
-                            "ioValue": 120
-                        },
-                        {
-                            "name": "ScaleX",
-                            "ioValue": 0.3
-                        },
-                        {
-                            "name": "ScaleY",
-                            "ioValue": 0.4
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -305,13 +279,6 @@
                     "ap2Primary": false,
                     "ap1ID": 872225,
                     "ap2ID": 833054
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 732951,
-                    "ap2ID": 761197
                 }
             ],
             "fileTypeVersion": 1
