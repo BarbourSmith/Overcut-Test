@@ -23,25 +23,17 @@
         {
             "atomType": "Molecule",
             "name": "Lower Level Molecule",
-            "x": 0.33074684772065954,
-            "y": 0.7011494252873564,
+            "x": 0.3491755577109602,
+            "y": 0.7088122605363985,
             "uniqueID": 732951,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Input892236",
-                    "x": 0.08147429679922405,
-                    "y": 0.4674329501915709,
-                    "uniqueID": 836732,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.33748169838945824,
-                    "y": 0.47126436781609193,
+                    "x": 0.2638215324927255,
+                    "y": 0.25287356321839083,
                     "uniqueID": 404455,
                     "ioValues": [
                         {
@@ -55,6 +47,32 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Input892236",
+                    "x": 0.08147429679922405,
+                    "y": 0.4674329501915709,
+                    "uniqueID": 836732,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.4228903976721629,
+                    "y": 0.8160919540229885,
+                    "uniqueID": 531093,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -65,9 +83,23 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 404455,
+                    "ap2ID": 531093
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 836732,
+                    "ap2ID": 531093
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 404455
+                    "ap1ID": 531093
                 }
             ],
             "fileTypeVersion": 1
@@ -138,10 +170,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Lower Level Molecule",
-                    "x": 0.33074684772065954,
-                    "y": 0.7011494252873564,
+                    "x": 0.3491755577109602,
+                    "y": 0.7088122605363985,
                     "uniqueID": 732951,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7526673132880699,
+                    "y": 0.32567049808429116,
+                    "uniqueID": 833054,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Assembly",
@@ -226,6 +272,13 @@
                     "ap2Primary": false,
                     "ap1ID": 872225,
                     "ap2ID": 687515
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 872225,
+                    "ap2ID": 833054
                 }
             ],
             "fileTypeVersion": 1
