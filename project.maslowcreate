@@ -22,23 +22,10 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.10184287099903006,
-                    "y": 0.5670498084291188,
-                    "uniqueID": 904018,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.31037827352085356,
-                    "y": 0.5402298850574713,
+                    "x": 0.4112512124151309,
+                    "y": 0.29118773946360155,
                     "uniqueID": 111945,
                     "ioValues": [
                         {
@@ -55,6 +42,19 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10184287099903006,
+                    "y": 0.5670498084291188,
+                    "uniqueID": 904018,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -87,16 +87,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 111945
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 904018,
                     "ap2ID": 111945
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 111945
                 },
                 {
                     "ap1Name": "geometry",
@@ -109,5 +109,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "2.2"
+    "circleSegmentSize": "0.1"
 }
