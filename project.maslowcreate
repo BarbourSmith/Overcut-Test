@@ -57,26 +57,30 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.4112512124151309,
-                    "y": 0.29118773946360155,
-                    "uniqueID": 111945,
+                    "atomType": "GitHubMolecule",
+                    "name": "Proportional Shift",
+                    "x": 0.20853540252182345,
+                    "y": 0.4137931034482759,
+                    "uniqueID": 365010,
+                    "projectID": "187933479",
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
+                            "name": "X",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "Y",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 4",
-                            "ioValue": 10
+                            "name": "ScaleX",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "ScaleY",
+                            "ioValue": 1
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -90,6 +94,32 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.565470417070805,
+                    "y": 0.37931034482758624,
+                    "uniqueID": 111945,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Molecule",
@@ -129,10 +159,11 @@
                     "ap2ID": 111945
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
-                    "ap1ID": 111945
+                    "ap1ID": 365010,
+                    "ap2ID": 111945
                 },
                 {
                     "ap1Name": "geometry",
@@ -140,6 +171,19 @@
                     "ap2Primary": false,
                     "ap1ID": 904018,
                     "ap2ID": 111945
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 904018,
+                    "ap2ID": 365010
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 111945
                 },
                 {
                     "ap1Name": "Geometry",
@@ -159,5 +203,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.1"
+    "circleSegmentSize": "2.5"
 }
