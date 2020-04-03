@@ -118,8 +118,7 @@
                             "name": "3D shape 5",
                             "ioValue": 10
                         }
-                    ],
-                    "removeCutawayGeometry": true
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -143,28 +142,15 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Cafe Table",
-                    "x": 0.5223744292237443,
-                    "y": 0.7624521072796935,
-                    "uniqueID": 664816,
-                    "projectID": "182022403",
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 0.4484018264840183,
+                    "y": 0.7892720306513409,
+                    "uniqueID": 654392,
                     "ioValues": [
                         {
-                            "name": "Wood Thickness",
+                            "name": "number",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "Height",
-                            "ioValue": 300
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 700
-                        },
-                        {
-                            "name": "Length",
-                            "ioValue": 600
                         }
                     ]
                 },
