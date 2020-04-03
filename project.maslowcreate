@@ -150,7 +150,8 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "evolve": true
                         }
                     ]
                 },
