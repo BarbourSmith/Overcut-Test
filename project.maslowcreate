@@ -150,10 +150,12 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10,
-                            "evolve": false
+                            "ioValue": 10
                         }
-                    ]
+                    ],
+                    "evolve": true,
+                    "min": 5,
+                    "max": 15
                 },
                 {
                     "atomType": "Output",
