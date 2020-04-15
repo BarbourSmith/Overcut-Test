@@ -165,6 +165,26 @@
             "max": 15
         },
         {
+            "atomType": "Molecule",
+            "name": "This test one just appeared ",
+            "x": 0.7277777777777777,
+            "y": 0.6628352490421456,
+            "uniqueID": 644014,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9777777777777777,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
