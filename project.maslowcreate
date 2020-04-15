@@ -149,26 +149,10 @@
             ]
         },
         {
-            "atomType": "Constant",
-            "name": "A new name",
-            "x": 0.5296803652968036,
-            "y": 0.7854406130268199,
-            "uniqueID": 654392,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
-                }
-            ],
-            "evolve": true,
-            "min": 5,
-            "max": 15
-        },
-        {
             "atomType": "Molecule",
             "name": "This test one just appeared ",
-            "x": 0.7277777777777777,
-            "y": 0.6628352490421456,
+            "x": 0.6811111111111111,
+            "y": 0.6513409961685823,
             "uniqueID": 644014,
             "ioValues": [],
             "topLevel": false,
@@ -183,6 +167,22 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Constant",
+            "name": "A new name",
+            "x": 0.5296803652968036,
+            "y": 0.7854406130268199,
+            "uniqueID": 654392,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": true,
+            "min": 5,
+            "max": 15
         },
         {
             "atomType": "Output",
