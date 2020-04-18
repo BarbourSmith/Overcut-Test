@@ -149,6 +149,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Github Molecule",
+            "x": 0.5728444003964321,
+            "y": 0.6053639846743295,
+            "uniqueID": 308761,
+            "projectID": "256811639",
+            "ioValues": []
+        },
+        {
             "atomType": "Constant",
             "name": "A new name",
             "x": 0.43045387994143486,
@@ -166,7 +175,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "This test one just appearedÂ ",
+            "name": "This test one just appearedÃÂ ",
             "x": 0.7342606149341141,
             "y": 0.578544061302682,
             "uniqueID": 644014,
