@@ -84,6 +84,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "3/8 Washer",
+            "x": 0.6830161054172766,
+            "y": 0.13026819923371646,
+            "uniqueID": 308761,
+            "projectID": "256811639",
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Molecule",
             "x": 0.27158098933074687,
@@ -121,8 +130,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.376281112737921,
-            "y": 0.6513409961685823,
+            "x": 0.46486090775988287,
+            "y": 0.5632183908045977,
             "uniqueID": 494569,
             "ioValues": [
                 {
@@ -131,6 +140,19 @@
                 },
                 {
                     "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5622254758418741,
+            "y": 0.5440613026819924,
+            "uniqueID": 130330,
+            "ioValues": [
+                {
+                    "name": "height",
                     "ioValue": 10
                 }
             ]
@@ -147,15 +169,6 @@
                     "ioValue": 10
                 }
             ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Github Molecule",
-            "x": 0.5728444003964321,
-            "y": 0.6053639846743295,
-            "uniqueID": 308761,
-            "projectID": "256811639",
-            "ioValues": []
         },
         {
             "atomType": "Constant",
@@ -175,7 +188,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "This test one just appearedÃÂ ",
+            "name": "This test one just appearedÃÂÃÂ ",
             "x": 0.7342606149341141,
             "y": 0.578544061302682,
             "uniqueID": 644014,
@@ -192,6 +205,35 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.6742313323572474,
+            "y": 0.8045977011494253,
+            "uniqueID": 712950,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": 1
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -242,6 +284,20 @@
             "ap2Primary": false,
             "ap1ID": 922713,
             "ap2ID": 111945
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 494569,
+            "ap2ID": 130330
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 130330,
+            "ap2ID": 712950
         },
         {
             "ap1Name": "geometry",
