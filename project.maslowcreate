@@ -84,6 +84,23 @@
             ]
         },
         {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.4939148073022312,
+            "y": 0.48473282442748095,
+            "uniqueID": 494569,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 30
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "3/8 Washer",
             "x": 0.6830161054172766,
@@ -128,19 +145,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6166328600405679,
-            "y": 0.5190839694656488,
-            "uniqueID": 130330,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.09408341416100874,
@@ -149,6 +153,19 @@
             "ioValues": [
                 {
                     "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6267748478701826,
+            "y": 0.6297709923664122,
+            "uniqueID": 130330,
+            "ioValues": [
+                {
+                    "name": "height",
                     "ioValue": 10
                 }
             ]
@@ -171,7 +188,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "This test one just appearedÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
+            "name": "This test one just appearedÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
             "x": 0.7342606149341141,
             "y": 0.578544061302682,
             "uniqueID": 644014,
@@ -188,23 +205,6 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5490483162518301,
-            "y": 0.7824427480916031,
-            "uniqueID": 494569,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 30
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Output",
@@ -250,6 +250,13 @@
             "ap1ID": 111945
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 494569,
+            "ap2ID": 130330
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 4",
             "ap2Primary": false,
@@ -262,13 +269,6 @@
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 494569,
-            "ap2ID": 130330
         }
     ],
     "fileTypeVersion": 1,
