@@ -128,27 +128,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.46486090775988287,
-            "y": 0.5632183908045977,
-            "uniqueID": 494569,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 30
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5622254758418741,
-            "y": 0.5440613026819924,
+            "x": 0.6166328600405679,
+            "y": 0.5190839694656488,
             "uniqueID": 130330,
             "ioValues": [
                 {
@@ -188,7 +171,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "This test one just appearedÃÂÃÂÃÂÃÂ ",
+            "name": "This test one just appearedÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
             "x": 0.7342606149341141,
             "y": 0.578544061302682,
             "uniqueID": 644014,
@@ -207,31 +190,19 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.6742313323572474,
-            "y": 0.8045977011494253,
-            "uniqueID": 712950,
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.5490483162518301,
+            "y": 0.7824427480916031,
+            "uniqueID": 494569,
             "ioValues": [
                 {
-                    "name": "tool size",
-                    "ioValue": 6.35
+                    "name": "x length",
+                    "ioValue": 30
                 },
                 {
-                    "name": "passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": 1
-                },
-                {
-                    "name": "safe height",
-                    "ioValue": 6
+                    "name": "y length",
+                    "ioValue": 10
                 }
             ]
         },
@@ -287,24 +258,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 494569,
-            "ap2ID": 130330
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 130330,
-            "ap2ID": 712950
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "Input798061",
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 494569,
+            "ap2ID": 130330
         }
     ],
     "fileTypeVersion": 1,
