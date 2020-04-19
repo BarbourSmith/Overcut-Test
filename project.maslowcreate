@@ -161,24 +161,20 @@
             "uniqueID": 328828,
             "ioValues": [
                 {
-                    "name": "safe height",
-                    "ioValue": 6
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": 1
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
+                    "name": "tool size",
+                    "ioValue": 6.35
                 },
                 {
                     "name": "passes",
                     "ioValue": 6
                 },
                 {
-                    "name": "tool size",
-                    "ioValue": 6.35
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": 1
                 }
             ]
         },
