@@ -84,23 +84,6 @@
             ]
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.4939148073022312,
-            "y": 0.48473282442748095,
-            "uniqueID": 494569,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 30
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "GitHubMolecule",
             "name": "3/8 Washer",
             "x": 0.6830161054172766,
@@ -158,37 +141,8 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6267748478701826,
-            "y": 0.6297709923664122,
-            "uniqueID": 130330,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Constant",
-            "name": "A new name",
-            "x": 0.43045387994143486,
-            "y": 0.8275862068965518,
-            "uniqueID": 654392,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 10
-                }
-            ],
-            "evolve": true,
-            "min": 5,
-            "max": 15
-        },
-        {
             "atomType": "Molecule",
-            "name": "This test one just appearedÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
+            "name": "This test one just appearedÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
             "x": 0.7342606149341141,
             "y": 0.578544061302682,
             "uniqueID": 644014,
@@ -248,13 +202,6 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 111945
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 494569,
-            "ap2ID": 130330
         },
         {
             "ap1Name": "Geometry",
