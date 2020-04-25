@@ -128,10 +128,18 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.49454905847373637,
+            "y": 0.5555555555555556,
+            "uniqueID": 725821,
+            "ioValues": []
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5312190287413281,
-            "y": 0.5938697318007663,
+            "x": 0.6293359762140733,
+            "y": 0.4904214559386973,
             "uniqueID": 584197,
             "ioValues": [
                 {
@@ -156,8 +164,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3577799801783944,
-            "y": 0.8773946360153256,
+            "x": 0.26362735381565905,
+            "y": 0.8352490421455938,
             "uniqueID": 380926,
             "ioValues": [
                 {
@@ -167,10 +175,23 @@
             ]
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.38850346878097125,
+            "y": 0.8620689655172414,
+            "uniqueID": 189918,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 20
+                }
+            ]
+        },
+        {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7036669970267592,
-            "y": 0.6628352490421456,
+            "x": 0.8186323092170465,
+            "y": 0.7088122605363985,
             "uniqueID": 328828,
             "ioValues": [
                 {
@@ -179,7 +200,7 @@
                 },
                 {
                     "name": "passes",
-                    "ioValue": 3
+                    "ioValue": 4
                 },
                 {
                     "name": "speed",
@@ -244,6 +265,13 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 725821,
+            "ap2ID": 584197
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 584197,
             "ap2ID": 328828
@@ -257,10 +285,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
             "ap1ID": 380926,
-            "ap2ID": 584197
+            "ap2ID": 725821
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 189918,
+            "ap2ID": 725821
         }
     ],
     "fileTypeVersion": 1,
