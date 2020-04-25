@@ -154,10 +154,23 @@
             ]
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3577799801783944,
+            "y": 0.8773946360153256,
+            "uniqueID": 380926,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6580773042616452,
-            "y": 0.6743295019157088,
+            "x": 0.7036669970267592,
+            "y": 0.6628352490421456,
             "uniqueID": 328828,
             "ioValues": [
                 {
@@ -175,19 +188,6 @@
                 {
                     "name": "tabs",
                     "ioValue": 1
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3577799801783944,
-            "y": 0.8773946360153256,
-            "uniqueID": 380926,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
                 }
             ]
         },
