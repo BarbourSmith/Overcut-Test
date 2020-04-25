@@ -190,8 +190,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.8125915080527086,
-            "y": 0.7318007662835249,
+            "x": 0.8107036669970267,
+            "y": 0.735632183908046,
             "uniqueID": 328828,
             "ioValues": [
                 {
@@ -304,5 +304,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "10"
+    "circleSegmentSize": "0.7"
 }
