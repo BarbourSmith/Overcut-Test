@@ -209,6 +209,10 @@
                 {
                     "name": "tabs",
                     "ioValue": 1
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
                 }
             ]
         },
