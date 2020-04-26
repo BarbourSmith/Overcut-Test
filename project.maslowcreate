@@ -128,25 +128,20 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.49454905847373637,
-            "y": 0.5555555555555556,
-            "uniqueID": 725821,
-            "ioValues": []
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.666005946481665,
-            "y": 0.4904214559386973,
-            "uniqueID": 584197,
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.47770069375619423,
+            "y": 0.632183908045977,
+            "uniqueID": 523335,
             "ioValues": [
                 {
-                    "name": "height",
+                    "name": "number",
                     "ioValue": 10
                 }
-            ]
+            ],
+            "evolve": true,
+            "min": 0,
+            "max": 20
         },
         {
             "atomType": "Circle",
@@ -162,28 +157,23 @@
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.26362735381565905,
-            "y": 0.8352490421455938,
-            "uniqueID": 380926,
+            "atomType": "Genetic Algorithm",
+            "name": "Genetic Algorithm",
+            "x": 0.6957383548067394,
+            "y": 0.6551724137931034,
+            "uniqueID": 223522,
             "ioValues": [
                 {
-                    "name": "diameter",
+                    "name": "fitness function",
                     "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.38850346878097125,
-            "y": 0.8620689655172414,
-            "uniqueID": 189918,
-            "ioValues": [
+                },
                 {
-                    "name": "diameter",
-                    "ioValue": 20
+                    "name": "population size",
+                    "ioValue": 50
+                },
+                {
+                    "name": "number of generations",
+                    "ioValue": 10
                 }
             ]
         },
@@ -193,35 +183,6 @@
             "x": 0.9853587115666179,
             "y": 0.5,
             "ioValues": []
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8116947472745292,
-            "y": 0.7662835249042146,
-            "uniqueID": 328828,
-            "ioValues": [
-                {
-                    "name": "tool size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "passes",
-                    "ioValue": 4
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": 1
-                },
-                {
-                    "name": "safe height",
-                    "ioValue": 6
-                }
-            ]
         }
     ],
     "allConnectors": [
@@ -267,18 +228,11 @@
             "ap2ID": 111945
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 725821,
-            "ap2ID": 584197
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap1Name": "number",
+            "ap2Name": "fitness function",
             "ap2Primary": false,
-            "ap1ID": 584197,
-            "ap2ID": 328828
+            "ap1ID": 523335,
+            "ap2ID": 223522
         },
         {
             "ap1Name": "geometry",
@@ -286,20 +240,6 @@
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 380926,
-            "ap2ID": 725821
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 189918,
-            "ap2ID": 725821
         }
     ],
     "fileTypeVersion": 1,
