@@ -84,19 +84,10 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "3/8 Washer",
-            "x": 0.6830161054172766,
-            "y": 0.13026819923371646,
-            "uniqueID": 308761,
-            "projectID": "256811639",
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.27155599603567887,
-            "y": 0.6475095785440613,
+            "x": 0.2755203171456888,
+            "y": 0.6360153256704981,
             "uniqueID": 922713,
             "ioValues": [],
             "topLevel": false,
@@ -143,6 +134,15 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "3/8 Washer",
+            "x": 0.6830161054172766,
+            "y": 0.13026819923371646,
+            "uniqueID": 308761,
+            "projectID": "256811639",
+            "ioValues": []
         },
         {
             "atomType": "Constant",
