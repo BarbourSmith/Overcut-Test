@@ -95,8 +95,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.27158098933074687,
-            "y": 0.6513409961685823,
+            "x": 0.27155599603567887,
+            "y": 0.6475095785440613,
             "uniqueID": 922713,
             "ioValues": [],
             "topLevel": false,
@@ -108,6 +108,23 @@
                     "y": 0.5287356321839081,
                     "uniqueID": 166913,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.29633300297324083,
+                    "y": 0.7739463601532567,
+                    "uniqueID": 153874,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 30
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -157,22 +174,18 @@
             ]
         },
         {
-            "atomType": "Genetic Algorithm",
-            "name": "Genetic Algorithm",
-            "x": 0.6947472745292369,
-            "y": 0.6551724137931034,
-            "uniqueID": 223522,
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.6194251734390486,
+            "y": 0.685823754789272,
+            "uniqueID": 439175,
             "ioValues": [
                 {
-                    "name": "fitness function",
-                    "ioValue": 10
+                    "name": "number of sides",
+                    "ioValue": 6
                 },
                 {
-                    "name": "population size",
-                    "ioValue": 50
-                },
-                {
-                    "name": "number of generations",
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
@@ -226,13 +239,6 @@
             "ap2Primary": false,
             "ap1ID": 922713,
             "ap2ID": 111945
-        },
-        {
-            "ap1Name": "number",
-            "ap2Name": "fitness function",
-            "ap2Primary": false,
-            "ap1ID": 523335,
-            "ap2ID": 223522
         },
         {
             "ap1Name": "geometry",
