@@ -153,7 +153,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 16.209385874268275
+                    "ioValue": 13.716926371739643
                 }
             ],
             "evolve": true,
@@ -182,7 +182,7 @@
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 16.209385874268275
+                    "ioValue": 13.716926371739643
                 },
                 {
                     "name": "population size",
