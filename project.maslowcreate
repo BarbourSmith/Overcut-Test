@@ -161,6 +161,24 @@
             "max": 20
         },
         {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.6154608523290386,
+            "y": 0.5478927203065134,
+            "uniqueID": 287857,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y",
+                    "ioValue": 20
+                }
+            ],
+            "currentEquation": "x + y"
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.09408341416100874,
@@ -174,15 +192,31 @@
             ]
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.4677898909811694,
+            "y": 0.8620689655172414,
+            "uniqueID": 902595,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": true,
+            "min": 0,
+            "max": 15
+        },
+        {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.7314172447968285,
-            "y": 0.632183908045977,
+            "x": 0.8285431119920713,
+            "y": 0.6168582375478927,
             "uniqueID": 395988,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 20
+                    "ioValue": 30
                 },
                 {
                     "name": "population size",
@@ -190,23 +224,6 @@
                 },
                 {
                     "name": "number of generations",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "RegularPolygon",
-            "name": "RegularPolygon",
-            "x": 0.43508424182358774,
-            "y": 0.9233716475095786,
-            "uniqueID": 439175,
-            "ioValues": [
-                {
-                    "name": "number of sides",
-                    "ioValue": 6
-                },
-                {
-                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
@@ -263,9 +280,16 @@
         },
         {
             "ap1Name": "number",
-            "ap2Name": "fitness function",
+            "ap2Name": "y",
             "ap2Primary": false,
             "ap1ID": 523335,
+            "ap2ID": 287857
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "fitness function",
+            "ap2Primary": false,
+            "ap1ID": 287857,
             "ap2ID": 395988
         },
         {
@@ -274,6 +298,13 @@
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 902595,
+            "ap2ID": 287857
         }
     ],
     "fileTypeVersion": 1,
