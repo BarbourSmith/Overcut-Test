@@ -147,8 +147,8 @@
         {
             "atomType": "Constant",
             "name": "Constant",
-            "x": 0.47770069375619423,
-            "y": 0.632183908045977,
+            "x": 0.48562933597621405,
+            "y": 0.5823754789272031,
             "uniqueID": 523335,
             "ioValues": [
                 {
@@ -174,10 +174,31 @@
             ]
         },
         {
+            "atomType": "Genetic Algorithm",
+            "name": "Genetic Algorithm",
+            "x": 0.730426164519326,
+            "y": 0.6360153256704981,
+            "uniqueID": 395988,
+            "ioValues": [
+                {
+                    "name": "fitness function",
+                    "ioValue": 10
+                },
+                {
+                    "name": "population size",
+                    "ioValue": 50
+                },
+                {
+                    "name": "number of generations",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.6194251734390486,
-            "y": 0.685823754789272,
+            "x": 0.43508424182358774,
+            "y": 0.9233716475095786,
             "uniqueID": 439175,
             "ioValues": [
                 {
@@ -239,6 +260,13 @@
             "ap2Primary": false,
             "ap1ID": 922713,
             "ap2ID": 111945
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "fitness function",
+            "ap2Primary": false,
+            "ap1ID": 523335,
+            "ap2ID": 395988
         },
         {
             "ap1Name": "geometry",
