@@ -153,7 +153,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 6.530193192173755
+                    "ioValue": 17.478676494571694
                 }
             ],
             "evolve": true,
@@ -176,13 +176,13 @@
         {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.7333994053518336,
-            "y": 0.6245210727969348,
+            "x": 0.7314172447968285,
+            "y": 0.632183908045977,
             "uniqueID": 395988,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 6.530193192173755
+                    "ioValue": 17.478676494571694
                 },
                 {
                     "name": "population size",
