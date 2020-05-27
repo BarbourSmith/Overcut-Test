@@ -153,7 +153,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 18.85930425528493
+                    "ioValue": 18.31544684268126
                 }
             ],
             "evolve": true,
@@ -182,11 +182,11 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 14.467325900305333
+                    "ioValue": 13.687802831229133
                 },
                 {
                     "name": "y",
-                    "ioValue": 18.85930425528493
+                    "ioValue": 18.31544684268126
                 }
             ],
             "currentEquation": "x + y"
@@ -200,7 +200,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 14.467325900305333
+                    "ioValue": 13.687802831229133
                 }
             ],
             "evolve": true,
@@ -210,13 +210,13 @@
         {
             "atomType": "Genetic Algorithm",
             "name": "Genetic Algorithm",
-            "x": 0.8308931185944364,
-            "y": 0.6168582375478927,
+            "x": 0.8374816983894583,
+            "y": 0.6513409961685823,
             "uniqueID": 395988,
             "ioValues": [
                 {
                     "name": "fitness function",
-                    "ioValue": 33.326630155590266
+                    "ioValue": 32.003249673910396
                 },
                 {
                     "name": "population size",
@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "number of generations",
-                    "ioValue": 10
+                    "ioValue": 40
                 }
             ]
         },
