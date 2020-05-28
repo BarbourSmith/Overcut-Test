@@ -224,7 +224,7 @@
                 },
                 {
                     "name": "number of generations",
-                    "ioValue": 40
+                    "ioValue": 10
                 }
             ]
         },
