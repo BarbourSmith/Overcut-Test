@@ -161,31 +161,6 @@
             "max": 20
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.7137628111273793,
-            "y": 0.421455938697318,
-            "uniqueID": 209977,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 84
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 84
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.09408341416100874,
@@ -215,6 +190,31 @@
                 }
             ],
             "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.7027818448023426,
+            "y": 0.5593869731800766,
+            "uniqueID": 477153,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         },
         {
             "atomType": "Constant",
@@ -316,13 +316,6 @@
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
-        },
-        {
-            "ap1Name": "result",
-            "ap2Name": "yDist",
-            "ap2Primary": false,
-            "ap1ID": 287857,
-            "ap2ID": 209977
         },
         {
             "ap1Name": "number",
