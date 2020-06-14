@@ -204,7 +204,7 @@
             "ioValues": [
                 {
                     "name": "tool size",
-                    "ioValue": 0
+                    "ioValue": 4
                 },
                 {
                     "name": "passes",
