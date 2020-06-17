@@ -171,31 +171,6 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.6581259150805271,
-            "y": 0.5172413793103449,
-            "uniqueID": 477153,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.31813676907829536,
@@ -238,61 +213,6 @@
                 {
                     "name": "safe height",
                     "ioValue": 6
-                }
-            ]
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.2306002928257687,
-            "y": 0.8505747126436781,
-            "uniqueID": 272126,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.6734992679355783,
-            "y": 0.7892720306513409,
-            "uniqueID": 326767,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Genetic Algorithm",
-            "name": "Genetic Algorithm",
-            "x": 0.8374816983894583,
-            "y": 0.6513409961685823,
-            "uniqueID": 395988,
-            "ioValues": [
-                {
-                    "name": "fitness function",
-                    "ioValue": 84
-                },
-                {
-                    "name": "population size",
-                    "ioValue": 50
-                },
-                {
-                    "name": "number of generations",
-                    "ioValue": 10
                 }
             ]
         },
