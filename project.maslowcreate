@@ -147,8 +147,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.48067393458870167,
-            "y": 0.5823754789272031,
+            "x": 0.4519326065411299,
+            "y": 0.5900383141762452,
             "uniqueID": 394371,
             "ioValues": [
                 {
@@ -204,24 +204,24 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 100
+                    "ioValue": 80
                 },
                 {
                     "name": "y length",
-                    "ioValue": 100
+                    "ioValue": 80
                 }
             ]
         },
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.5649157581764123,
-            "y": 0.6704980842911877,
+            "x": 0.5619425173439049,
+            "y": 0.6666666666666666,
             "uniqueID": 843399,
             "ioValues": [
                 {
                     "name": "tool size",
-                    "ioValue": 4
+                    "ioValue": 10
                 },
                 {
                     "name": "passes",
