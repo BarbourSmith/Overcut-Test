@@ -196,6 +196,35 @@
             ]
         },
         {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.5649157581764123,
+            "y": 0.6704980842911877,
+            "uniqueID": 843399,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 4
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": 4
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.3409316154608523,
@@ -226,35 +255,6 @@
                 {
                     "name": "y length",
                     "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.5639246778989099,
-            "y": 0.681992337164751,
-            "uniqueID": 843399,
-            "ioValues": [
-                {
-                    "name": "tool size",
-                    "ioValue": 4
-                },
-                {
-                    "name": "passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": 4
-                },
-                {
-                    "name": "safe height",
-                    "ioValue": 6
                 }
             ]
         },
