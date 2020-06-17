@@ -198,8 +198,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3240832507433102,
-            "y": 0.7816091954022989,
+            "x": 0.31813676907829536,
+            "y": 0.7854406130268199,
             "uniqueID": 354099,
             "ioValues": [
                 {
@@ -255,27 +255,6 @@
                 {
                     "name": "y length",
                     "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.4568880079286422,
-            "y": 0.8544061302681992,
-            "uniqueID": 188223,
-            "ioValues": [
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 45
                 }
             ]
         },
@@ -386,13 +365,6 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 354099,
-            "ap2ID": 188223
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 188223,
             "ap2ID": 394371
         }
     ],
