@@ -145,15 +145,15 @@
             "ioValues": []
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.554013875123885,
-            "y": 0.48659003831417624,
-            "uniqueID": 394371,
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4390485629335976,
+            "y": 0.6130268199233716,
+            "uniqueID": 550262,
             "ioValues": [
                 {
-                    "name": "height",
-                    "ioValue": 10
+                    "name": "diameter",
+                    "ioValue": 200
                 }
             ]
         },
@@ -171,10 +171,31 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.7443012884043607,
+            "y": 0.5019157088122606,
+            "uniqueID": 394371,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5668979187314173,
+            "y": 0.7394636015325671,
+            "uniqueID": 913483,
+            "ioValues": []
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.33002973240832506,
-            "y": 0.846743295019157,
+            "x": 0.4122893954410307,
+            "y": 0.842911877394636,
             "uniqueID": 354099,
             "ioValues": [
                 {
@@ -190,8 +211,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.705649157581764,
-            "y": 0.5862068965517242,
+            "x": 0.8652130822596631,
+            "y": 0.6628352490421456,
             "uniqueID": 843399,
             "ioValues": [
                 {
@@ -208,24 +229,11 @@
                 },
                 {
                     "name": "tabs",
-                    "ioValue": 4
+                    "ioValue": 5
                 },
                 {
                     "name": "safe height",
                     "ioValue": 6
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.46283448959365714,
-            "y": 0.846743295019157,
-            "uniqueID": 550262,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 100
                 }
             ]
         },
@@ -281,10 +289,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 394371,
-            "ap2ID": 843399
+            "ap1ID": 550262,
+            "ap2ID": 913483
         },
         {
             "ap1Name": "geometry",
@@ -296,9 +304,23 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 394371,
+            "ap2ID": 843399
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 550262,
+            "ap1ID": 913483,
             "ap2ID": 394371
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 354099,
+            "ap2ID": 913483
         }
     ],
     "fileTypeVersion": 1,
