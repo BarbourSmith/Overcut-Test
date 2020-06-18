@@ -200,7 +200,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 80
+                    "ioValue": 60
                 },
                 {
                     "name": "y length",
