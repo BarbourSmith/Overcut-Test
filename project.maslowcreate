@@ -7,92 +7,41 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.10766246362754607,
-            "y": 0.2796934865900383,
-            "uniqueID": 696623,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.41727672035139096,
-            "y": 0.32950191570881227,
-            "uniqueID": 579371,
+            "x": 0.4341142020497804,
+            "y": 0.4137931034482759,
+            "uniqueID": 283352,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Assembly(Sphere(40).move(10,100,10), Cube(5));        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1)"
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.10184287099903006,
-            "y": 0.5670498084291188,
-            "uniqueID": 904018,
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.11566617862371889,
+            "y": 0.7394636015325671,
+            "uniqueID": 619899,
             "ioValues": [
                 {
-                    "name": "diameter",
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
                     "ioValue": 10
                 }
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.4390485629335976,
-            "y": 0.6130268199233716,
-            "uniqueID": 550262,
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.2994143484626647,
+            "y": 0.7011494252873564,
+            "uniqueID": 983675,
             "ioValues": [
                 {
-                    "name": "diameter",
-                    "ioValue": 200
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5668979187314173,
-            "y": 0.7394636015325671,
-            "uniqueID": 913483,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.8652130822596631,
-            "y": 0.6628352490421456,
-            "uniqueID": 843399,
-            "ioValues": [
-                {
-                    "name": "tool size",
-                    "ioValue": 4
-                },
-                {
-                    "name": "passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "tabs",
-                    "ioValue": 5
-                },
-                {
-                    "name": "safe height",
-                    "ioValue": 6
+                    "name": "height",
+                    "ioValue": 10
                 }
             ]
         },
@@ -107,10 +56,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 550262,
-            "ap2ID": 913483
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 619899,
+            "ap2ID": 983675
         }
     ],
     "fileTypeVersion": 1,
