@@ -9,16 +9,16 @@
             "ioValue": 10
         },
         {
+            "name": "X",
+            "ioValue": 13
+        },
+        {
             "name": "Y",
             "ioValue": 10
         },
         {
             "name": "Z",
             "ioValue": 2
-        },
-        {
-            "name": "X",
-            "ioValue": 3
         }
     ],
     "topLevel": true,
@@ -56,7 +56,7 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 3
+                    "ioValue": 13
                 },
                 {
                     "name": "y",
