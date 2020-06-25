@@ -20,6 +20,15 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.41727672035139096,
+            "y": 0.32950191570881227,
+            "uniqueID": 579371,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Assembly(Sphere(40).move(10,100,10), Cube(5));        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.10184287099903006,
