@@ -3,9 +3,50 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input572973",
+            "ioValue": 10
+        },
+        {
+            "name": "Input250705",
+            "ioValue": 10
+        },
+        {
+            "name": "Input169376",
+            "ioValue": 10
+        },
+        {
+            "name": "Input201948",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "Input169376",
+            "x": 0.013333333333333334,
+            "y": 0.19157088122605365,
+            "uniqueID": 250289,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Input201948",
+            "x": 0.013333333333333334,
+            "y": 0.4367816091954023,
+            "uniqueID": 493257,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Input250705",
+            "x": 0.013333333333333334,
+            "y": 0.5555555555555556,
+            "uniqueID": 480014,
+            "ioValues": []
+        },
         {
             "atomType": "Code",
             "name": "Code",
@@ -13,13 +54,34 @@
             "y": 0.4137931034482759,
             "uniqueID": 283352,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1)"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(InputShape, x, y, z){\n  return InputShape.scale([x,y,z])        //return must be geometry;\n}\n\nreturn main(InputShape)"
+        },
+        {
+            "atomType": "Input",
+            "name": "Input572973",
+            "x": 0.013333333333333334,
+            "y": 0.7164750957854406,
+            "uniqueID": 712453,
+            "ioValues": []
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.32723279648609077,
+            "y": 0.6590038314176245,
+            "uniqueID": 983675,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.11566617862371889,
-            "y": 0.7394636015325671,
+            "x": 0.2027818448023426,
+            "y": 0.8237547892720306,
             "uniqueID": 619899,
             "ioValues": [
                 {
@@ -33,19 +95,6 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.2994143484626647,
-            "y": 0.7011494252873564,
-            "uniqueID": 983675,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -54,6 +103,19 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 283352
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "InputShape",
+            "ap2Primary": false,
+            "ap1ID": 983675,
+            "ap2ID": 283352
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
