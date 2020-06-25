@@ -5,19 +5,19 @@
     "y": 0,
     "ioValues": [
         {
-            "name": "Input572973",
+            "name": "Shape",
             "ioValue": 10
         },
         {
-            "name": "Input250705",
+            "name": "Y",
             "ioValue": 10
         },
         {
-            "name": "Input169376",
-            "ioValue": 10
+            "name": "Z",
+            "ioValue": 2
         },
         {
-            "name": "Input201948",
+            "name": "X",
             "ioValue": 10
         }
     ],
@@ -25,25 +25,25 @@
     "allAtoms": [
         {
             "atomType": "Input",
-            "name": "Input169376",
+            "name": "Shape",
             "x": 0.013333333333333334,
-            "y": 0.2567049808429119,
-            "uniqueID": 250289,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "Input201948",
-            "x": 0.013333333333333334,
-            "y": 0.4099616858237548,
+            "y": 0.20306513409961685,
             "uniqueID": 493257,
             "ioValues": []
         },
         {
             "atomType": "Input",
-            "name": "Input250705",
+            "name": "X",
             "x": 0.013333333333333334,
-            "y": 0.5708812260536399,
+            "y": 0.36015325670498083,
+            "uniqueID": 461498,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Y",
+            "x": 0.013333333333333334,
+            "y": 0.5210727969348659,
             "uniqueID": 480014,
             "ioValues": []
         },
@@ -53,12 +53,25 @@
             "x": 0.4341142020497804,
             "y": 0.4137931034482759,
             "uniqueID": 283352,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y",
+                    "ioValue": 10
+                },
+                {
+                    "name": "z",
+                    "ioValue": 10
+                }
+            ],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(InputShape, x, y, z){\n  return InputShape.scale([x,y,z])        //return must be geometry;\n}\n\nreturn main(InputShape)"
         },
         {
             "atomType": "Input",
-            "name": "Input572973",
+            "name": "Z",
             "x": 0.013333333333333334,
             "y": 0.7203065134099617,
             "uniqueID": 712453,
@@ -104,10 +117,31 @@
     ],
     "allConnectors": [
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 461498,
+            "ap2ID": 283352
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 480014,
+            "ap2ID": 283352
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 283352
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "z",
+            "ap2Primary": false,
+            "ap1ID": 712453,
+            "ap2ID": 283352
         },
         {
             "ap1Name": "geometry",
