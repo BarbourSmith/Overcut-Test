@@ -20,32 +20,6 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Proportional Shift",
-            "x": 0.222001982160555,
-            "y": 0.37931034482758624,
-            "uniqueID": 365010,
-            "projectID": "187933479",
-            "ioValues": [
-                {
-                    "name": "X",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Y",
-                    "ioValue": 10
-                },
-                {
-                    "name": "ScaleX",
-                    "ioValue": 1
-                },
-                {
-                    "name": "ScaleY",
-                    "ioValue": 1
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.10184287099903006,
@@ -54,31 +28,6 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.5373352855051244,
-            "y": 0.25287356321839083,
-            "uniqueID": 111945,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 5",
                     "ioValue": 10
                 }
             ]
@@ -136,15 +85,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "3/8 Washer",
-            "x": 0.6830161054172766,
-            "y": 0.13026819923371646,
-            "uniqueID": 308761,
-            "projectID": "256811639",
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.4390485629335976,
@@ -171,40 +111,15 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.7443012884043607,
-            "y": 0.5019157088122606,
-            "uniqueID": 394371,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5668979187314173,
             "y": 0.7394636015325671,
             "uniqueID": 913483,
-            "ioValues": []
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.4122893954410307,
-            "y": 0.842911877394636,
-            "uniqueID": 354099,
             "ioValues": [
                 {
-                    "name": "x length",
-                    "ioValue": 60
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 80
+                    "name": "geometry2",
+                    "ioValue": ""
                 }
             ]
         },
@@ -248,47 +163,6 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 696623,
-            "ap2ID": 111945
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 5",
-            "ap2Primary": false,
-            "ap1ID": 365010,
-            "ap2ID": 111945
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 904018,
-            "ap2ID": 111945
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Geometry",
-            "ap2Primary": false,
-            "ap1ID": 904018,
-            "ap2ID": 365010
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 111945
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 922713,
-            "ap2ID": 111945
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 550262,
@@ -300,27 +174,6 @@
             "ap2Primary": false,
             "ap1ID": 261093,
             "ap2ID": 922713
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 394371,
-            "ap2ID": 843399
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 913483,
-            "ap2ID": 394371
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 354099,
-            "ap2ID": 913483
         }
     ],
     "fileTypeVersion": 1,
