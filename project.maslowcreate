@@ -42,58 +42,6 @@
             ]
         },
         {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.2755203171456888,
-            "y": 0.6360153256704981,
-            "uniqueID": 922713,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Input798061",
-                    "x": 0.013333333333333334,
-                    "y": 0.5287356321839081,
-                    "uniqueID": 166913,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.29633300297324083,
-                    "y": 0.7739463601532567,
-                    "uniqueID": 153874,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 30
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9806013579049467,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 166913
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.4390485629335976,
@@ -103,19 +51,6 @@
                 {
                     "name": "diameter",
                     "ioValue": 200
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.09408341416100874,
-            "y": 0.8237547892720306,
-            "uniqueID": 261093,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
                 }
             ]
         },
@@ -176,13 +111,6 @@
             "ap2Primary": false,
             "ap1ID": 550262,
             "ap2ID": 913483
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Input798061",
-            "ap2Primary": false,
-            "ap1ID": 261093,
-            "ap2ID": 922713
         }
     ],
     "fileTypeVersion": 1,
