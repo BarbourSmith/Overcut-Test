@@ -91,6 +91,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "M4x20 Bolt",
+            "x": 0.5550049554013875,
+            "y": 0.6283524904214559,
+            "uniqueID": 304801,
+            "projectID": "198850770",
+            "ioValues": []
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.2027818448023426,
