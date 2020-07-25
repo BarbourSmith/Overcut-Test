@@ -83,6 +83,15 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.6105417276720351,
+            "y": 0.29389312977099236,
+            "uniqueID": 534187,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Torus(40,5)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Input",
             "name": "Z",
             "x": 0.013333333333333334,
