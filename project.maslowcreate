@@ -3,193 +3,24 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
-    "ioValues": [
-        {
-            "name": "Shape",
-            "ioValue": 10
-        },
-        {
-            "name": "X",
-            "ioValue": 13
-        },
-        {
-            "name": "Y",
-            "ioValue": 10
-        },
-        {
-            "name": "Z",
-            "ioValue": 2
-        }
-    ],
+    "ioValues": [],
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Input",
-            "name": "Shape",
-            "x": 0.013333333333333334,
-            "y": 0.20306513409961685,
-            "uniqueID": 493257,
+            "atomType": "GitHubMolecule",
+            "name": "Injection Moulded Arm",
+            "x": 0.19106881405563692,
+            "y": 0.27586206896551724,
+            "uniqueID": 397777,
+            "projectID": "280984333",
             "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "X",
-            "x": 0.013333333333333334,
-            "y": 0.36015325670498083,
-            "uniqueID": 461498,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "Y",
-            "x": 0.013333333333333334,
-            "y": 0.5210727969348659,
-            "uniqueID": 480014,
-            "ioValues": []
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.4341142020497804,
-            "y": 0.4137931034482759,
-            "uniqueID": 283352,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 13
-                },
-                {
-                    "name": "y",
-                    "ioValue": 10
-                },
-                {
-                    "name": "z",
-                    "ioValue": 2
-                }
-            ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(InputShape, x, y, z){\n  return InputShape.scale([x,3,z])        //return must be geometry;\n}\n\nreturn main(InputShape)"
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4736456808199122,
-            "y": 0.4789272030651341,
-            "uniqueID": 497490,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 100
-                }
-            ]
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.6105417276720351,
-            "y": 0.29389312977099236,
-            "uniqueID": 534187,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Torus(40,5)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
-            "atomType": "Input",
-            "name": "Z",
-            "x": 0.013333333333333334,
-            "y": 0.7203065134099617,
-            "uniqueID": 712453,
-            "ioValues": []
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.32723279648609077,
-            "y": 0.6590038314176245,
-            "uniqueID": 983675,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.2027818448023426,
-            "y": 0.8237547892720306,
-            "uniqueID": 619899,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5256222547584187,
-            "y": 0.685823754789272,
-            "uniqueID": 364261,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 99
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.6661786237188873,
-            "y": 0.6704980842911877,
-            "uniqueID": 892334,
-            "ioValues": []
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.41068814055636893,
-            "y": 0.8582375478927203,
-            "uniqueID": 472583,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 100
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 100
-                }
-            ]
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.4787701317715959,
-            "y": 0.9348659003831418,
-            "uniqueID": 936597,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 99
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 99
-                }
-            ]
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.6273792093704246,
-            "y": 0.8735632183908046,
-            "uniqueID": 154669,
+            "x": 0.3140556368960469,
+            "y": 0.23371647509578544,
+            "uniqueID": 835843,
             "ioValues": [
                 {
                     "name": "xDist",
@@ -201,17 +32,56 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 1
+                    "ioValue": 0
                 }
             ]
         },
         {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.7964860907759882,
-            "y": 0.7279693486590038,
-            "uniqueID": 136344,
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.46632503660322105,
+            "y": 0.27586206896551724,
+            "uniqueID": 875164,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Injection Moulded Clamp",
+            "x": 0.18081991215226942,
+            "y": 0.681992337164751,
+            "uniqueID": 530670,
+            "projectID": "281696678",
             "ioValues": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5175695461200586,
+            "y": 0.5938697318007663,
+            "uniqueID": 974730,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -223,90 +93,28 @@
     ],
     "allConnectors": [
         {
-            "ap1Name": "number or geometry",
-            "ap2Name": "x",
-            "ap2Primary": false,
-            "ap1ID": 461498,
-            "ap2ID": 283352
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "y",
-            "ap2Primary": false,
-            "ap1ID": 480014,
-            "ap2ID": 283352
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 283352
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 497490,
-            "ap2ID": 892334
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "z",
-            "ap2Primary": false,
-            "ap1ID": 712453,
-            "ap2ID": 283352
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "InputShape",
-            "ap2Primary": false,
-            "ap1ID": 983675,
-            "ap2ID": 283352
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 397777,
+            "ap2ID": 835843
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 619899,
-            "ap2ID": 983675
+            "ap1ID": 835843,
+            "ap2ID": 875164
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 364261,
-            "ap2ID": 154669
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
             "ap2Primary": false,
-            "ap1ID": 892334,
-            "ap2ID": 136344
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 472583,
-            "ap2ID": 497490
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 936597,
-            "ap2ID": 364261
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 154669,
-            "ap2ID": 892334
+            "ap1ID": 530670,
+            "ap2ID": 974730
         }
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.7"
+    "circleSegmentSize": "3.4"
 }
