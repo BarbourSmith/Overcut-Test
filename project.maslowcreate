@@ -7,78 +7,18 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "GitHubMolecule",
-            "name": "Injection Moulded Arm",
-            "x": 0.19106881405563692,
-            "y": 0.27586206896551724,
-            "uniqueID": 397777,
-            "projectID": "280984333",
-            "ioValues": []
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.3140556368960469,
-            "y": 0.23371647509578544,
-            "uniqueID": 835843,
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.6508052708638361,
+            "y": 0.4444444444444444,
+            "uniqueID": 312384,
             "ioValues": [
                 {
-                    "name": "xDist",
-                    "ioValue": 0
+                    "name": "x length",
+                    "ioValue": 10
                 },
                 {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.46632503660322105,
-            "y": 0.27586206896551724,
-            "uniqueID": 875164,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Injection Moulded Clamp",
-            "x": 0.18081991215226942,
-            "y": 0.681992337164751,
-            "uniqueID": 530670,
-            "projectID": "281696678",
-            "ioValues": []
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.5175695461200586,
-            "y": 0.5938697318007663,
-            "uniqueID": 974730,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
+                    "name": "y length",
                     "ioValue": 10
                 }
             ]
@@ -93,25 +33,10 @@
     ],
     "allConnectors": [
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 397777,
-            "ap2ID": 835843
-        },
-        {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 835843,
-            "ap2ID": 875164
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 530670,
-            "ap2ID": 974730
+            "ap1ID": 312384
         }
     ],
     "fileTypeVersion": 1,
