@@ -5,7 +5,7 @@
     "y": 0,
     "ioValues": [
         {
-            "name": "Input581324",
+            "name": "Top Level Input",
             "ioValue": 10
         }
     ],
@@ -32,7 +32,7 @@
             "uniqueID": 418745,
             "ioValues": [
                 {
-                    "name": "Input921127",
+                    "name": "Lower Input 1",
                     "ioValue": 10
                 }
             ],
@@ -40,7 +40,7 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Input921127",
+                    "name": "Lower Input 1",
                     "x": 0.013333333333333334,
                     "y": 0.3333333333333333,
                     "uniqueID": 434363,
@@ -91,7 +91,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Input527016",
+                    "name": "Lower Input 2",
                     "x": 0.013333333333333334,
                     "y": 0.5670498084291188,
                     "uniqueID": 796911,
@@ -155,7 +155,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Input581324",
+            "name": "Top Level Input",
             "x": 0.013333333333333334,
             "y": 0.7203065134099617,
             "uniqueID": 656669,
@@ -205,7 +205,7 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "Input527016",
+            "ap2Name": "Lower Input 2",
             "ap2Primary": false,
             "ap1ID": 233491,
             "ap2ID": 418745
@@ -225,7 +225,7 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "Input921127",
+            "ap2Name": "Lower Input 1",
             "ap2Primary": false,
             "ap1ID": 656669,
             "ap2ID": 418745
