@@ -56,13 +56,9 @@
                         {
                             "name": "x",
                             "ioValue": 20
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "x + 20"
                 },
                 {
                     "atomType": "Translate",
@@ -73,7 +69,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 21
+                            "ioValue": 40
                         },
                         {
                             "name": "yDist",
