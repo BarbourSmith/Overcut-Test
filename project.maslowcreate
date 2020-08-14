@@ -175,6 +175,32 @@
             "ioValues": []
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Cafe Table",
+            "x": 0.44598612487611494,
+            "y": 0.6475095785440613,
+            "uniqueID": 558859,
+            "projectID": "182022403",
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 1200
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 1000
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 18
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 700
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
