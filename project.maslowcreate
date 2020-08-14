@@ -167,12 +167,56 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Concentric Cylinder",
+            "x": 0.4261645193260654,
+            "y": 0.5708812260536399,
+            "uniqueID": 530991,
+            "projectID": "281702086",
+            "ioValues": [
+                {
+                    "name": "OD",
+                    "ioValue": 10
+                },
+                {
+                    "name": "ID",
+                    "ioValue": 5
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Input",
             "name": "Top Level Input",
             "x": 0.013333333333333334,
             "y": 0.7203065134099617,
             "uniqueID": 656669,
             "ioValues": []
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Concentric Cylinder",
+            "x": 0.5986124876114965,
+            "y": 0.7471264367816093,
+            "uniqueID": 409317,
+            "projectID": "281702086",
+            "ioValues": [
+                {
+                    "name": "OD",
+                    "ioValue": 30
+                },
+                {
+                    "name": "ID",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
