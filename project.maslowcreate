@@ -60,18 +60,10 @@
                     "currentEquation": "x + y"
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Input527016",
-                    "x": 0.013333333333333334,
-                    "y": 0.5670498084291188,
-                    "uniqueID": 796911,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.3062438057482656,
-                    "y": 0.48275862068965514,
+                    "x": 0.3032705649157582,
+                    "y": 0.4636015325670498,
                     "uniqueID": 817430,
                     "ioValues": [
                         {
@@ -87,6 +79,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input527016",
+                    "x": 0.013333333333333334,
+                    "y": 0.5670498084291188,
+                    "uniqueID": 796911,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -112,17 +112,17 @@
                     "ap2ID": 817430
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 817430
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 796911,
                     "ap2ID": 817430
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 817430
                 }
             ],
             "fileTypeVersion": 1
