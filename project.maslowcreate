@@ -3,12 +3,7 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
-    "ioValues": [
-        {
-            "name": "Top Level Input",
-            "ioValue": 10
-        }
-    ],
+    "ioValues": [],
     "topLevel": true,
     "allAtoms": [
         {
@@ -27,22 +22,17 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.3131813676907829,
+            "x": 0.31119920713577803,
             "y": 0.2567049808429119,
             "uniqueID": 418745,
-            "ioValues": [
-                {
-                    "name": "Lower Input 1",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Input",
                     "name": "Lower Input 1",
                     "x": 0.013333333333333334,
-                    "y": 0.3333333333333333,
+                    "y": 0.37164750957854403,
                     "uniqueID": 434363,
                     "ioValues": []
                 },
@@ -72,10 +62,6 @@
                     "uniqueID": 817430,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 11
                         },
@@ -93,7 +79,7 @@
                     "atomType": "Input",
                     "name": "Lower Input 2",
                     "x": 0.013333333333333334,
-                    "y": 0.5670498084291188,
+                    "y": 0.6283524904214559,
                     "uniqueID": 796911,
                     "ioValues": []
                 },
@@ -167,12 +153,7 @@
             "x": 0.3211100099108028,
             "y": 0.6666666666666666,
             "uniqueID": 809115,
-            "ioValues": [
-                {
-                    "name": "Input581324",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
