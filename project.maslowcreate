@@ -46,11 +46,11 @@
                     "uniqueID": 699581,
                     "ioValues": [
                         {
-                            "name": "X",
+                            "name": "T",
                             "ioValue": 20
                         }
                     ],
-                    "currentEquation": "2*X"
+                    "currentEquation": "2*T"
                 },
                 {
                     "atomType": "Input",
@@ -107,7 +107,7 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "X",
+                    "ap2Name": "T",
                     "ap2Primary": false,
                     "ap1ID": 434363,
                     "ap2ID": 699581
