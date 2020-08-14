@@ -34,6 +34,10 @@
                 {
                     "name": "Lower Input 1",
                     "ioValue": 20
+                },
+                {
+                    "name": "Lower Input 2",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -67,6 +71,10 @@
                     "y": 0.4636015325670498,
                     "uniqueID": 817430,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 40
@@ -136,6 +144,10 @@
             "uniqueID": 448282,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -148,6 +160,10 @@
             "y": 0.5670498084291188,
             "uniqueID": 437273,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "xDist",
                     "ioValue": 20
@@ -249,21 +265,6 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 448282
-        },
-        null,
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Lower Input 1",
-            "ap2Primary": false,
-            "ap1ID": 656669,
-            "ap2ID": 418745
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "xDist",
-            "ap2Primary": false,
-            "ap1ID": 656669,
-            "ap2ID": 437273
         }
     ],
     "fileTypeVersion": 1,
