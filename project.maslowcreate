@@ -140,40 +140,29 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.28543111992071357,
+            "y": 0.6015325670498084,
+            "uniqueID": 437273,
+            "ioValues": [
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Input",
             "name": "Top Level Input",
             "x": 0.013333333333333334,
             "y": 0.7203065134099617,
             "uniqueID": 656669,
             "ioValues": []
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.3211100099108028,
-            "y": 0.6666666666666666,
-            "uniqueID": 809115,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Input581324",
-                    "x": 0.013333333333333334,
-                    "y": 0.7318007662835249,
-                    "uniqueID": 185201,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9801783944499505,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
@@ -190,6 +179,13 @@
             "ap2Primary": false,
             "ap1ID": 233491,
             "ap2ID": 418745
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 233491,
+            "ap2ID": 437273
         },
         {
             "ap1Name": "Geometry",
@@ -210,6 +206,13 @@
             "ap2Primary": false,
             "ap1ID": 656669,
             "ap2ID": 418745
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 656669,
+            "ap2ID": 437273
         }
     ],
     "fileTypeVersion": 1,
