@@ -34,10 +34,6 @@
                 {
                     "name": "Lower Input 1",
                     "ioValue": 20
-                },
-                {
-                    "name": "Lower Input 2",
-                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -65,16 +61,37 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.3032705649157582,
-                    "y": 0.4636015325670498,
-                    "uniqueID": 817430,
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.4043607532210109,
+                    "y": 0.3371647509578544,
+                    "uniqueID": 522050,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
+                            "name": "x length",
+                            "ioValue": 40
                         },
+                        {
+                            "name": "y length",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Lower Input 2",
+                    "x": 0.013333333333333334,
+                    "y": 0.6283524904214559,
+                    "uniqueID": 796911,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.3974231912784935,
+                    "y": 0.6896551724137931,
+                    "uniqueID": 817430,
+                    "ioValues": [
                         {
                             "name": "xDist",
                             "ioValue": 40
@@ -88,14 +105,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Lower Input 2",
-                    "x": 0.013333333333333334,
-                    "y": 0.6283524904214559,
-                    "uniqueID": 796911,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -114,6 +123,13 @@
                     "ap2ID": 817430
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 699581,
+                    "ap2ID": 522050
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
                     "ap2Primary": false,
@@ -124,7 +140,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 817430
+                    "ap1ID": 522050
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -144,10 +160,6 @@
             "uniqueID": 448282,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -160,10 +172,6 @@
             "y": 0.5670498084291188,
             "uniqueID": 437273,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "xDist",
                     "ioValue": 20
