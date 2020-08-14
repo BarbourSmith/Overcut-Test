@@ -3,7 +3,12 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Top Level Input",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -25,7 +30,12 @@
             "x": 0.31119920713577803,
             "y": 0.2567049808429119,
             "uniqueID": 418745,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Lower Input 1",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -130,10 +140,6 @@
             "uniqueID": 448282,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -142,10 +148,14 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.28543111992071357,
-            "y": 0.6015325670498084,
+            "x": 0.27750247770069375,
+            "y": 0.5670498084291188,
             "uniqueID": 437273,
             "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 10
+                },
                 {
                     "name": "yDist",
                     "ioValue": 0
