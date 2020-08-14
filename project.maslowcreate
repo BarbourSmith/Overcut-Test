@@ -39,26 +39,26 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.15460852329038652,
+                    "y": 0.27586206896551724,
+                    "uniqueID": 699581,
+                    "ioValues": [
+                        {
+                            "name": "X",
+                            "ioValue": 20
+                        }
+                    ],
+                    "currentEquation": "2*X"
+                },
+                {
                     "atomType": "Input",
                     "name": "Lower Input 1",
                     "x": 0.013333333333333334,
                     "y": 0.37164750957854403,
                     "uniqueID": 434363,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 0.15361744301288405,
-                    "y": 0.3486590038314176,
-                    "uniqueID": 699581,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 20
-                        }
-                    ],
-                    "currentEquation": "x + 20"
                 },
                 {
                     "atomType": "Translate",
@@ -99,18 +99,18 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap2Primary": false,
-                    "ap1ID": 434363,
-                    "ap2ID": 699581
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap2Primary": false,
                     "ap1ID": 699581,
                     "ap2ID": 817430
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "X",
+                    "ap2Primary": false,
+                    "ap1ID": 434363,
+                    "ap2ID": 699581
                 },
                 {
                     "ap1Name": "geometry",
