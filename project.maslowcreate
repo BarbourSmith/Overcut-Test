@@ -7,6 +7,172 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.29435084241823584,
+            "y": 0.5708812260536399,
+            "uniqueID": 138515,
+            "ioValues": [
+                {
+                    "name": "OD",
+                    "ioValue": 10
+                },
+                {
+                    "name": "ID",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "OD",
+                    "x": 0.013333333333333334,
+                    "y": 0.2567049808429119,
+                    "uniqueID": 342909,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.11420204978038066,
+                    "y": 0.26436781609195403,
+                    "uniqueID": 763222,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.22620790629575402,
+                    "y": 0.42528735632183906,
+                    "uniqueID": 293008,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10322108345534406,
+                    "y": 0.5210727969348659,
+                    "uniqueID": 788522,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "ID",
+                    "x": 0.013333333333333334,
+                    "y": 0.5478927203065134,
+                    "uniqueID": 179791,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4073339940535183,
+                    "y": 0.5555555555555556,
+                    "uniqueID": 129989,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 438965,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9801783944499505,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 342909,
+                    "ap2ID": 763222
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 763222,
+                    "ap2ID": 293008
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 293008,
+                    "ap2ID": 129989
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 788522,
+                    "ap2ID": 293008
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 179791,
+                    "ap2ID": 788522
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 129989
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 438965,
+                    "ap2ID": 129989
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "Concentric Cylinder",
             "x": 0.6105054509415263,
