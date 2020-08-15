@@ -7,6 +7,19 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.3623718887262079,
+            "y": 0.24521072796934865,
+            "uniqueID": 678988,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Molecule",
             "x": 0.29435084241823584,
@@ -19,7 +32,7 @@
                 },
                 {
                     "name": "ID",
-                    "ioValue": 10
+                    "ioValue": 5
                 },
                 {
                     "name": "Height",
@@ -66,7 +79,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
                 },
