@@ -9,8 +9,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.669970267591675,
-            "y": 0.5019157088122606,
+            "x": 0.38949454905847375,
+            "y": 0.5938697318007663,
             "uniqueID": 169652,
             "ioValues": [
                 {
@@ -18,6 +18,41 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.6174430128840436,
+            "y": 0.5402298850574713,
+            "uniqueID": 888276,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input255392",
+                    "x": 0.013333333333333334,
+                    "y": 0.4367816091954023,
+                    "uniqueID": 960574,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9801783944499505,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 960574
+                }
+            ],
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
@@ -30,9 +65,16 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
+            "ap2Name": "Input255392",
+            "ap2Primary": false,
+            "ap1ID": 169652,
+            "ap2ID": 888276
+        },
+        {
+            "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 169652
+            "ap1ID": 888276
         }
     ],
     "fileTypeVersion": 1,
