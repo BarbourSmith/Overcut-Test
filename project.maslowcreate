@@ -20,6 +20,10 @@
                 {
                     "name": "ID",
                     "ioValue": 10
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -88,6 +92,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.8160919540229885,
+                    "uniqueID": 502770,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9801783944499505,
@@ -136,6 +148,13 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 129989
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 502770,
+                    "ap2ID": 129989
                 }
             ],
             "fileTypeVersion": 1
