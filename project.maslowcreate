@@ -3,9 +3,56 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input271637",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "Input271637",
+            "x": 0.013333333333333334,
+            "y": 0.5057471264367817,
+            "uniqueID": 947723,
+            "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.1962338949454906,
+            "y": 0.6015325670498084,
+            "uniqueID": 420902,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.0029732408325074335,
+            "y": 0.7049808429118775,
+            "uniqueID": 159141,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
         {
             "atomType": "Circle",
             "name": "Circle",
@@ -15,7 +62,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ]
         },
@@ -63,6 +110,27 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 947723,
+            "ap2ID": 420902
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 420902,
+            "ap2ID": 169652
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 159141,
+            "ap2ID": 420902
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "Input255392",
