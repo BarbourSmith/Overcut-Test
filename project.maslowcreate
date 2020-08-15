@@ -102,6 +102,28 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Concentric Cylinder",
+            "x": 0.7165510406342914,
+            "y": 0.7586206896551725,
+            "uniqueID": 875063,
+            "projectID": "281702086",
+            "ioValues": [
+                {
+                    "name": "OD",
+                    "ioValue": 30
+                },
+                {
+                    "name": "ID",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9702675916749256,
