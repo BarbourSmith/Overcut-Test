@@ -20,10 +20,6 @@
                 {
                     "name": "ID",
                     "ioValue": 10
-                },
-                {
-                    "name": "Height",
-                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -45,7 +41,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 30
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -55,16 +51,7 @@
                     "x": 0.22620790629575402,
                     "y": 0.42528735632183906,
                     "uniqueID": 293008,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -95,22 +82,10 @@
                     "uniqueID": 129989,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "height",
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Height",
-                    "x": 0.013333333333333334,
-                    "y": 0.8314176245210728,
-                    "uniqueID": 438965,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -161,13 +136,6 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 129989
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": 438965,
-                    "ap2ID": 129989
                 }
             ],
             "fileTypeVersion": 1
