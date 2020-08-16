@@ -9,38 +9,12 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3623718887262079,
+            "x": 0.30227948463825566,
             "y": 0.24521072796934865,
-            "uniqueID": 678988,
+            "uniqueID": 364086,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "M3 Locknut",
-            "x": 0.46878097125867196,
-            "y": 0.3754789272030651,
-            "uniqueID": 185435,
-            "projectID": "278794657",
-            "ioValues": []
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5649157581764123,
-            "y": 0.24904214559386972,
-            "uniqueID": 503670,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
                     "ioValue": 10
                 }
             ]
@@ -197,36 +171,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5758176412289395,
-            "y": 0.7164750957854406,
-            "uniqueID": 883455,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7086223984142715,
-            "y": 0.6628352490421456,
-            "uniqueID": 728298,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Output",
