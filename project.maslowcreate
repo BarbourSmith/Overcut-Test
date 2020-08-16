@@ -173,6 +173,22 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.5571010248901903,
+            "y": 0.4636015325670498,
+            "uniqueID": 305472,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9702675916749256,
@@ -183,9 +199,16 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 138515,
+            "ap2ID": 305472
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 138515
+            "ap1ID": 305472
         }
     ],
     "fileTypeVersion": 1,
