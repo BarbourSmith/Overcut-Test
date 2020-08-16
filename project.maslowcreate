@@ -20,6 +20,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "M3 Locknut",
+            "x": 0.46878097125867196,
+            "y": 0.3754789272030651,
+            "uniqueID": 185435,
+            "projectID": "278794657",
+            "ioValues": []
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.5649157581764123,
