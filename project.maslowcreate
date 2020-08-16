@@ -184,11 +184,37 @@
         {
             "atomType": "GitHubMolecule",
             "name": "M3 Locknut",
-            "x": 0.48662041625371655,
-            "y": 0.7586206896551725,
+            "x": 0.6551040634291377,
+            "y": 0.3333333333333333,
             "uniqueID": 917143,
             "projectID": "278794657",
             "ioValues": []
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Cafe Table",
+            "x": 0.6134786917740337,
+            "y": 0.6743295019157088,
+            "uniqueID": 781291,
+            "projectID": "182022403",
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 1200
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 1000
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 18
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 700
+                }
+            ]
         },
         {
             "atomType": "Output",
