@@ -20,6 +20,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "M3 Locknut",
+            "x": 0.47869177403369667,
+            "y": 0.31417624521072796,
+            "uniqueID": 705765,
+            "projectID": "278794657",
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Molecule",
             "x": 0.29435084241823584,
@@ -171,6 +180,15 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "M3 Locknut",
+            "x": 0.48662041625371655,
+            "y": 0.7586206896551725,
+            "uniqueID": 917143,
+            "projectID": "278794657",
+            "ioValues": []
         },
         {
             "atomType": "Output",
