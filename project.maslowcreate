@@ -41,7 +41,7 @@
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ]
         },
@@ -54,11 +54,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ]
         },
@@ -79,7 +79,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 6
+                    "ioValue": 20
                 }
             ]
         },
