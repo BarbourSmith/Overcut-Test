@@ -41,7 +41,7 @@
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 160
+                    "ioValue": 130
                 },
                 {
                     "name": "yDist",
@@ -94,16 +94,16 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.6567460317460317,
-            "y": 0.2298850574712644,
+            "x": 0.6339285714285715,
+            "y": 0.2681992337164751,
             "uniqueID": 858097,
             "ioValues": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6478174603174603,
-            "y": 0.45210727969348663,
+            "x": 0.6130952380952381,
+            "y": 0.4674329501915709,
             "uniqueID": 671568,
             "ioValues": [
                 {
