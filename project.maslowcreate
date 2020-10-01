@@ -33,10 +33,18 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5634920634920635,
+            "y": 0.12260536398467432,
+            "uniqueID": 337047,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.35714285714285715,
-            "y": 0.42911877394636017,
+            "x": 0.3551587301587301,
+            "y": 0.47126436781609193,
             "uniqueID": 191880,
             "ioValues": [
                 {
@@ -50,19 +58,6 @@
                 {
                     "name": "zDist",
                     "ioValue": 20
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.5634920634920635,
-            "y": 0.12260536398467432,
-            "uniqueID": 337047,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
                 }
             ]
         },
@@ -99,21 +94,16 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.6339285714285715,
-            "y": 0.2681992337164751,
+            "x": 0.6121031746031745,
+            "y": 0.21839080459770116,
             "uniqueID": 858097,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6130952380952381,
-            "y": 0.4674329501915709,
+            "x": 0.6160714285714285,
+            "y": 0.39080459770114945,
             "uniqueID": 671568,
             "ioValues": [
                 {
@@ -148,39 +138,14 @@
             ]
         },
         {
-            "atomType": "Nest",
-            "name": "Nest",
-            "x": 0.8234126984126985,
-            "y": 0.27586206896551724,
-            "uniqueID": 942229,
-            "ioValues": [
-                {
-                    "name": "spacing",
-                    "ioValue": 0.3
-                },
-                {
-                    "name": "curveTolerance",
-                    "ioValue": 0.3
-                }
-            ]
-        },
-        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.6200396825396826,
-            "y": 0.6934865900383141,
+            "x": 0.6190476190476191,
+            "y": 0.5593869731800766,
             "uniqueID": 326867,
             "ioValues": [
                 {
                     "name": "3D shape 4",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
                     "ioValue": ""
                 },
                 {
@@ -203,16 +168,29 @@
             "closedSelection": 0
         },
         {
+            "atomType": "Nest",
+            "name": "Nest",
+            "x": 0.8234126984126985,
+            "y": 0.27586206896551724,
+            "uniqueID": 942229,
+            "ioValues": [
+                {
+                    "name": "spacing",
+                    "ioValue": 0.3
+                },
+                {
+                    "name": "curveTolerance",
+                    "ioValue": 0.3
+                }
+            ]
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.3759920634920635,
             "y": 0.8735632183908046,
             "uniqueID": 348711,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0
