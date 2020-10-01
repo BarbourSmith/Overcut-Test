@@ -22,8 +22,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.39087301587301587,
-            "y": 0.24904214559386972,
+            "x": 0.39384920634920634,
+            "y": 0.26436781609195403,
             "uniqueID": 801772,
             "ioValues": [
                 {
@@ -63,10 +63,18 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.566468253968254,
+            "y": 0.4137931034482759,
+            "uniqueID": 337047,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.3770131771595901,
-            "y": 0.6590038314176245,
+            "x": 0.3740079365079365,
+            "y": 0.681992337164751,
             "uniqueID": 191880,
             "ioValues": [
                 {
@@ -82,14 +90,6 @@
                     "ioValue": 20
                 }
             ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.6388888888888888,
-            "y": 0.5823754789272031,
-            "uniqueID": 337047,
-            "ioValues": []
         },
         {
             "atomType": "Nest",
