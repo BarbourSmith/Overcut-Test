@@ -33,6 +33,27 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.35714285714285715,
+            "y": 0.42911877394636017,
+            "uniqueID": 191880,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 160
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 20
+                }
+            ]
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5446428571428571,
@@ -81,21 +102,21 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.3740079365079365,
-            "y": 0.681992337164751,
-            "uniqueID": 191880,
+            "x": 0.42460317460317465,
+            "y": 0.6934865900383141,
+            "uniqueID": 262760,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 160
+                    "ioValue": 180
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 270
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 20
+                    "ioValue": 0
                 }
             ]
         },
@@ -119,12 +140,12 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5982142857142857,
-            "y": 0.735632183908046,
+            "x": 0.6061507936507937,
+            "y": 0.7432950191570881,
             "uniqueID": 326867,
             "ioValues": [
                 {
-                    "name": "3D shape 3",
+                    "name": "3D shape 4",
                     "ioValue": ""
                 },
                 {
@@ -137,6 +158,10 @@
                 },
                 {
                     "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
                     "ioValue": 10
                 }
             ],
@@ -181,20 +206,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 618465,
-            "ap2ID": 584005
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 584005,
-            "ap2ID": 191880
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 191880,
@@ -212,6 +223,34 @@
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 191880,
+            "ap2ID": 326867
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 618465,
+            "ap2ID": 584005
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 584005,
+            "ap2ID": 191880
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 584005,
+            "ap2ID": 262760
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 262760,
             "ap2ID": 326867
         }
     ],
