@@ -219,7 +219,7 @@
             "y": 0.7816091954022989,
             "uniqueID": 553656,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain()"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
         }
     ],
     "allConnectors": [
