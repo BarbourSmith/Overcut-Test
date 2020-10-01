@@ -22,8 +22,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.38506588579795026,
-            "y": 0.2567049808429119,
+            "x": 0.39087301587301587,
+            "y": 0.24904214559386972,
             "uniqueID": 801772,
             "ioValues": [
                 {
@@ -84,6 +84,14 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6388888888888888,
+            "y": 0.5823754789272031,
+            "uniqueID": 337047,
+            "ioValues": []
+        },
+        {
             "atomType": "Nest",
             "name": "Nest",
             "x": 0.8234126984126985,
@@ -97,23 +105,6 @@
                 {
                     "name": "curveTolerance",
                     "ioValue": 0.3
-                }
-            ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6031746031746031,
-            "y": 0.7777777777777777,
-            "uniqueID": 525457,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
                 }
             ]
         },
@@ -135,10 +126,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 801772,
-            "ap2ID": 525457
+            "ap2ID": 337047
         },
         {
             "ap1Name": "geometry",
@@ -156,10 +147,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 191880,
-            "ap2ID": 525457
+            "ap2ID": 337047
         }
     ],
     "fileTypeVersion": 1,
