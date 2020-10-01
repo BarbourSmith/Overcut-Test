@@ -201,7 +201,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 3.1415
+                    "ioValue": 0
                 }
             ]
         },
