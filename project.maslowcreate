@@ -23,7 +23,7 @@
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.39384920634920634,
-            "y": 0.26436781609195403,
+            "y": 0.2567049808429119,
             "uniqueID": 801772,
             "ioValues": [
                 {
@@ -105,6 +105,23 @@
                 {
                     "name": "curveTolerance",
                     "ioValue": 0.3
+                }
+            ]
+        },
+        {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.6259920634920635,
+            "y": 0.6475095785440613,
+            "uniqueID": 858097,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
                 }
             ]
         },
