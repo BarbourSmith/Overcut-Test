@@ -208,11 +208,11 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.626984126984127,
-            "y": 0.7394636015325671,
+            "x": 0.6428571428571428,
+            "y": 0.7701149425287357,
             "uniqueID": 380864,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\nconsole.log(\"This code ran\")\n\nreturn Sphere(40)"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\nconsole.log(\"This ran\")\n\nreturn sphere(100)\n"
         },
         {
             "atomType": "Output",
