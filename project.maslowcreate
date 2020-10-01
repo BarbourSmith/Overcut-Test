@@ -117,6 +117,32 @@
             ]
         },
         {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.5982142857142857,
+            "y": 0.735632183908046,
+            "uniqueID": 326867,
+            "ioValues": [
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                }
+            ],
+            "closedSelection": 0
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9702675916749256,
@@ -148,6 +174,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 801772,
+            "ap2ID": 326867
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 618465,
@@ -173,6 +206,13 @@
             "ap2Primary": false,
             "ap1ID": 191880,
             "ap2ID": 858097
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 191880,
+            "ap2ID": 326867
         }
     ],
     "fileTypeVersion": 1,
