@@ -59,7 +59,12 @@
             "x": 0.5634920634920635,
             "y": 0.12260536398467432,
             "uniqueID": 337047,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Rectangle",
@@ -97,7 +102,12 @@
             "x": 0.6339285714285715,
             "y": 0.2681992337164751,
             "uniqueID": 858097,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -166,6 +176,14 @@
                     "ioValue": ""
                 },
                 {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                },
+                {
                     "name": "3D shape 4",
                     "ioValue": 10
                 },
@@ -191,6 +209,10 @@
             "y": 0.8735632183908046,
             "uniqueID": 348711,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0
