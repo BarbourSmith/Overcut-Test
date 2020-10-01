@@ -27,10 +27,6 @@
             "uniqueID": 801772,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
                     "ioValue": 100
                 }
@@ -42,16 +38,7 @@
             "x": 0.5634920634920635,
             "y": 0.12260536398467432,
             "uniqueID": 337047,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
@@ -60,10 +47,6 @@
             "y": 0.5325670498084291,
             "uniqueID": 584005,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "height",
                     "ioValue": 100
@@ -77,10 +60,6 @@
             "y": 0.47126436781609193,
             "uniqueID": 191880,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "xDist",
                     "ioValue": 130
@@ -118,16 +97,7 @@
             "x": 0.6121031746031745,
             "y": 0.21839080459770116,
             "uniqueID": 858097,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
@@ -154,10 +124,6 @@
             "uniqueID": 262760,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "xDist",
                     "ioValue": 180
                 },
@@ -180,18 +146,6 @@
             "ioValues": [
                 {
                     "name": "3D shape 4",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 2",
                     "ioValue": ""
                 },
                 {
@@ -238,10 +192,6 @@
             "uniqueID": 348711,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "x-axis degrees",
                     "ioValue": 0
                 },
@@ -269,7 +219,7 @@
             "y": 0.7816091954022989,
             "uniqueID": 553656,
             "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1, Input2)"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain()"
         }
     ],
     "allConnectors": [
