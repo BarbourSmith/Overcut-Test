@@ -215,6 +215,14 @@
             ]
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.5297619047619048,
+            "y": 0.8237547892720306,
+            "uniqueID": 357533,
+            "ioValues": []
+        },
+        {
             "atomType": "Constant",
             "name": "Constant",
             "x": 0.6071428571428572,
@@ -229,14 +237,6 @@
             "evolve": false,
             "min": 0,
             "max": 20
-        },
-        {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.5351390922401171,
-            "y": 0.8773946360153256,
-            "uniqueID": 357533,
-            "ioValues": []
         },
         {
             "atomType": "Output",
