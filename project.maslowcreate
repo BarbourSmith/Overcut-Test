@@ -117,31 +117,10 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.41567460317460314,
-            "y": 0.6973180076628352,
-            "uniqueID": 262760,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 180
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 270
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.6190476190476191,
-            "y": 0.5593869731800766,
+            "x": 0.4992679355783309,
+            "y": 0.5402298850574713,
             "uniqueID": 326867,
             "ioValues": [
                 {
@@ -166,6 +145,27 @@
                 }
             ],
             "closedSelection": 0
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.41567460317460314,
+            "y": 0.6973180076628352,
+            "uniqueID": 262760,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 180
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 270
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         },
         {
             "atomType": "Nest",
@@ -229,6 +229,14 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.5351390922401171,
+            "y": 0.8773946360153256,
+            "uniqueID": 357533,
+            "ioValues": []
         },
         {
             "atomType": "Output",
@@ -343,6 +351,13 @@
             "ap2Primary": true,
             "ap1ID": 618465,
             "ap2ID": 584005
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 326867,
+            "ap2ID": 357533
         },
         {
             "ap1Name": "geometry",
