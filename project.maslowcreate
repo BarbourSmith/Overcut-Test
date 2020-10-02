@@ -223,7 +223,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ],
             "evolve": false,
@@ -246,10 +246,10 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  console.log(\"This ran\")\n  console.log(Input1)\n  console.log(sphere)\n  return sphere({radius: 400})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         }
     ],
     "allConnectors": [
