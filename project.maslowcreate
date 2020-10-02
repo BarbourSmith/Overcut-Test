@@ -185,6 +185,15 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.7688492063492064,
+            "y": 0.5057471264367817,
+            "uniqueID": 553656,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.3759920634920635,
@@ -206,6 +215,22 @@
             ]
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.6071428571428572,
+            "y": 0.8007662835249042,
+            "uniqueID": 417951,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9702675916749256,
@@ -215,11 +240,16 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.7996031746031745,
-            "y": 0.7816091954022989,
-            "uniqueID": 553656,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+            "x": 0.7688492063492064,
+            "y": 0.7854406130268199,
+            "uniqueID": 639095,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 10
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  console.log(\"This ran\")\n  console.log(Input1)\n  console.log(sphere)\n  return sphere({radius: 400})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         }
     ],
     "allConnectors": [
@@ -320,6 +350,13 @@
             "ap2Primary": false,
             "ap1ID": 262760,
             "ap2ID": 326867
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 417951,
+            "ap2ID": 639095
         }
     ],
     "fileTypeVersion": 1,
