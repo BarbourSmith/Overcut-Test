@@ -48,13 +48,13 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.35218253968253965,
-            "y": 0.4482758620689655,
+            "x": 0.3531746031746032,
+            "y": 0.42911877394636017,
             "uniqueID": 191880,
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 130
+                    "ioValue": 60
                 },
                 {
                     "name": "yDist",
@@ -72,12 +72,7 @@
             "x": 0.5634920634920635,
             "y": 0.12260536398467432,
             "uniqueID": 337047,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Rectangle",
@@ -99,21 +94,16 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.6121031746031745,
+            "x": 0.611111111111111,
             "y": 0.21839080459770116,
             "uniqueID": 858097,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6160714285714285,
-            "y": 0.39080459770114945,
+            "x": 0.6299603174603174,
+            "y": 0.4444444444444444,
             "uniqueID": 671568,
             "ioValues": [
                 {
@@ -129,20 +119,12 @@
         {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.5009920634920635,
-            "y": 0.5440613026819924,
+            "x": 0.5059523809523809,
+            "y": 0.6360153256704981,
             "uniqueID": 326867,
             "ioValues": [
                 {
                     "name": "3D shape 4",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
                     "ioValue": ""
                 },
                 {
@@ -394,5 +376,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "8.8"
+    "circleSegmentSize": "1"
 }
