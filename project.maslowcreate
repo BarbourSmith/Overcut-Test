@@ -325,6 +325,15 @@
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.8888888888888888,
+            "y": 0.25287356321839083,
+            "uniqueID": 553656,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.701388888888889,
@@ -374,19 +383,27 @@
             ]
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.8839285714285715,
-            "y": 0.7126436781609194,
-            "uniqueID": 553656,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.9305555555555556,
+            "y": 0.7164750957854406,
+            "uniqueID": 130369,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.8204365079365079,
-            "y": 0.8697318007662835,
+            "x": 0.8134920634920635,
+            "y": 0.8620689655172414,
             "uniqueID": 194665,
             "ioValues": []
         }
@@ -576,6 +593,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 851802,
+            "ap2ID": 130369
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 321414,
@@ -587,6 +611,13 @@
             "ap2Primary": false,
             "ap1ID": 321414,
             "ap2ID": 194665
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 194665,
+            "ap2ID": 130369
         }
     ],
     "fileTypeVersion": 1,
