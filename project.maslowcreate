@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 120
+                    "ioValue": 40
                 },
                 {
                     "name": "zDist",
@@ -191,6 +191,19 @@
                 {
                     "name": "y length",
                     "ioValue": 100
+                }
+            ]
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6726190476190476,
+            "y": 0.6781609195402298,
+            "uniqueID": 560268,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "aTag"
                 }
             ]
         },
@@ -230,6 +243,13 @@
             "ap2Primary": true,
             "ap1ID": 480187,
             "ap2ID": 330385
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 480187,
+            "ap2ID": 560268
         },
         {
             "ap1Name": "geometry",
