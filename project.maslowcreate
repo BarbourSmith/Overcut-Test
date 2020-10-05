@@ -244,22 +244,6 @@
             ]
         },
         {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.5515873015873016,
-            "y": 0.6245210727969348,
-            "uniqueID": 417951,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 100
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
             "atomType": "Nest",
             "name": "Nest",
             "x": 0.8234126984126985,
@@ -313,25 +297,27 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.6438492063492064,
-            "y": 0.6475095785440613,
-            "uniqueID": 639095,
-            "ioValues": [
-                {
-                    "name": "Input1",
-                    "ioValue": 100
-                }
-            ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
-            "atomType": "Code",
-            "name": "Code",
             "x": 0.8888888888888888,
             "y": 0.25287356321839083,
             "uniqueID": 553656,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.4166666666666667,
+            "y": 0.8544061302681992,
+            "uniqueID": 417951,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 70
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
         },
         {
             "atomType": "Translate",
@@ -353,6 +339,20 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.5257936507936508,
+            "y": 0.8237547892720306,
+            "uniqueID": 639095,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 70
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
             "atomType": "Difference",
@@ -385,8 +385,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.9305555555555556,
-            "y": 0.7164750957854406,
+            "x": 0.9246031746031745,
+            "y": 0.7318007662835249,
             "uniqueID": 130369,
             "ioValues": [
                 {
