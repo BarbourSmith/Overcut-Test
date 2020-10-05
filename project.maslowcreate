@@ -69,8 +69,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5634920634920635,
-            "y": 0.12260536398467432,
+            "x": 0.5486111111111112,
+            "y": 0.13026819923371646,
             "uniqueID": 337047,
             "ioValues": []
         },
@@ -92,14 +92,6 @@
             ]
         },
         {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.6180555555555556,
-            "y": 0.17624521072796936,
-            "uniqueID": 858097,
-            "ioValues": []
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.4305555555555555,
@@ -119,6 +111,14 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Intersection",
+            "name": "Intersection",
+            "x": 0.621031746031746,
+            "y": 0.2375478927203065,
+            "uniqueID": 858097,
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
