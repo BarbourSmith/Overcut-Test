@@ -152,15 +152,15 @@
             "ioValues": [
                 {
                     "name": "tag",
-                    "ioValue": "aTag"
+                    "ioValue": "Another Tag"
                 }
             ]
         },
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.49603174603174605,
-            "y": 0.7011494252873564,
+            "x": 0.4087301587301588,
+            "y": 0.6973180076628352,
             "uniqueID": 222194,
             "ioValues": [
                 {
@@ -169,7 +169,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 70
+                    "ioValue": 120
                 },
                 {
                     "name": "zDist",
@@ -186,11 +186,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 100
+                    "ioValue": 10
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ]
         },
