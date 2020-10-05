@@ -94,8 +94,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.4305555555555555,
-            "y": 0.4942528735632184,
+            "x": 0.39285714285714285,
+            "y": 0.4789272030651341,
             "uniqueID": 262760,
             "ioValues": [
                 {
@@ -206,19 +206,6 @@
             "closedSelection": 0
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4732142857142857,
-            "y": 0.6360153256704981,
-            "uniqueID": 321414,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 30
-                }
-            ]
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.14484126984126983,
@@ -242,8 +229,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6299603174603174,
-            "y": 0.524904214559387,
+            "x": 0.636904761904762,
+            "y": 0.5287356321839081,
             "uniqueID": 520355,
             "ioValues": [
                 {
@@ -304,6 +291,19 @@
                 {
                     "name": "height",
                     "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4553571428571428,
+            "y": 0.8314176245210728,
+            "uniqueID": 321414,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 30
                 }
             ]
         },
@@ -381,6 +381,14 @@
             "uniqueID": 553656,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7003968253968255,
+            "y": 0.9118773946360152,
+            "uniqueID": 851802,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -551,6 +559,20 @@
             "ap2Primary": true,
             "ap1ID": 520355,
             "ap2ID": 324871
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 321414,
+            "ap2ID": 851802
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 324871,
+            "ap2ID": 851802
         },
         {
             "ap1Name": "number",
