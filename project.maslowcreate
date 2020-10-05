@@ -244,6 +244,22 @@
             ]
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.5515873015873016,
+            "y": 0.6245210727969348,
+            "uniqueID": 417951,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 100
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Nest",
             "name": "Nest",
             "x": 0.8234126984126985,
@@ -295,10 +311,24 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.6438492063492064,
+            "y": 0.6475095785440613,
+            "uniqueID": 639095,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 100
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4553571428571428,
-            "y": 0.8314176245210728,
+            "x": 0.5535714285714286,
+            "y": 0.7969348659003832,
             "uniqueID": 321414,
             "ioValues": [
                 {
@@ -310,8 +340,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7390873015873015,
-            "y": 0.6398467432950191,
+            "x": 0.7063492063492064,
+            "y": 0.6934865900383141,
             "uniqueID": 324871,
             "ioValues": [
                 {
@@ -329,28 +359,12 @@
             ]
         },
         {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.5297619047619048,
-            "y": 0.8237547892720306,
-            "uniqueID": 357533,
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.810515873015873,
+            "y": 0.6743295019157088,
+            "uniqueID": 851802,
             "ioValues": []
-        },
-        {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.6071428571428572,
-            "y": 0.8007662835249042,
-            "uniqueID": 417951,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 100
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
         },
         {
             "atomType": "Output",
@@ -360,18 +374,12 @@
             "ioValues": []
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.7688492063492064,
-            "y": 0.7854406130268199,
-            "uniqueID": 639095,
-            "ioValues": [
-                {
-                    "name": "Input1",
-                    "ioValue": 100
-                }
-            ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7490079365079365,
+            "y": 0.8352490421455938,
+            "uniqueID": 194665,
+            "ioValues": []
         },
         {
             "atomType": "Code",
@@ -381,14 +389,6 @@
             "uniqueID": 553656,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.7003968253968255,
-            "y": 0.9118773946360152,
-            "uniqueID": 851802,
-            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -534,13 +534,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 326867,
-            "ap2ID": 357533
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 715636,
@@ -561,6 +554,13 @@
             "ap2ID": 324871
         },
         {
+            "ap1Name": "number",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 417951,
+            "ap2ID": 639095
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
@@ -571,15 +571,22 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
+            "ap1ID": 321414,
+            "ap2ID": 194665
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
             "ap1ID": 324871,
             "ap2ID": 851802
         },
         {
-            "ap1Name": "number",
-            "ap2Name": "Input1",
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 417951,
-            "ap2ID": 639095
+            "ap1ID": 324871,
+            "ap2ID": 194665
         }
     ],
     "fileTypeVersion": 1,
