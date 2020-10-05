@@ -274,23 +274,10 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.33432539682539686,
-            "y": 0.8199233716475096,
-            "uniqueID": 334999,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.7539682539682541,
-            "y": 0.5095785440613027,
+            "x": 0.742063492063492,
+            "y": 0.45210727969348663,
             "uniqueID": 366279,
             "ioValues": [
                 {
@@ -308,10 +295,23 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.33432539682539686,
+            "y": 0.8199233716475096,
+            "uniqueID": 334999,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7331349206349207,
-            "y": 0.632183908045977,
+            "x": 0.7390873015873015,
+            "y": 0.6398467432950191,
             "uniqueID": 324871,
             "ioValues": [
                 {
