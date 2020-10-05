@@ -325,23 +325,10 @@
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: Input1})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5535714285714286,
-            "y": 0.7969348659003832,
-            "uniqueID": 321414,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 30
-                }
-            ]
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7063492063492064,
-            "y": 0.6934865900383141,
+            "x": 0.701388888888889,
+            "y": 0.6781609195402298,
             "uniqueID": 324871,
             "ioValues": [
                 {
@@ -361,8 +348,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.810515873015873,
-            "y": 0.6743295019157088,
+            "x": 0.824404761904762,
+            "y": 0.6513409961685823,
             "uniqueID": 851802,
             "ioValues": []
         },
@@ -374,12 +361,17 @@
             "ioValues": []
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.7490079365079365,
-            "y": 0.8352490421455938,
-            "uniqueID": 194665,
-            "ioValues": []
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6954365079365079,
+            "y": 0.842911877394636,
+            "uniqueID": 321414,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 30
+                }
+            ]
         },
         {
             "atomType": "Code",
@@ -389,6 +381,14 @@
             "uniqueID": 553656,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1){\n  return sphere({radius: 200})        //return must be geometry;\n}\n\nmain(Input1)"
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.8204365079365079,
+            "y": 0.8697318007662835,
+            "uniqueID": 194665,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -562,30 +562,30 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
-            "ap1ID": 321414,
+            "ap1ID": 324871,
             "ap2ID": 851802
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 321414,
+            "ap1ID": 324871,
             "ap2ID": 194665
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 324871,
+            "ap1ID": 321414,
             "ap2ID": 851802
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
-            "ap1ID": 324871,
+            "ap1ID": 321414,
             "ap2ID": 194665
         }
     ],
