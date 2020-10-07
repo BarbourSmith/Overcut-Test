@@ -44,6 +44,10 @@
             "uniqueID": 687138,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "tag",
                     "ioValue": "aTag"
                 }
@@ -78,6 +82,10 @@
             "uniqueID": 998811,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "xDist",
                     "ioValue": 0
                 },
@@ -98,6 +106,10 @@
             "y": 0.4597701149425288,
             "uniqueID": 681880,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "tag",
                     "ioValue": "Another Tag"
@@ -163,6 +175,10 @@
             "y": 0.6973180076628352,
             "uniqueID": 222194,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
