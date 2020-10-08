@@ -14,6 +14,10 @@
             "uniqueID": 720552,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "xDist",
                     "ioValue": 50
                 },
@@ -48,6 +52,10 @@
             "uniqueID": 175509,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "x-axis degrees",
                     "ioValue": 0
                 },
@@ -80,7 +88,16 @@
             "x": 0.5565476190476191,
             "y": 0.26053639846743293,
             "uniqueID": 489521,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Union",
@@ -156,6 +173,12 @@
             "ap2Primary": true,
             "ap1ID": 266523,
             "ap2ID": 672645
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 489521
         }
     ],
     "fileTypeVersion": 1,
