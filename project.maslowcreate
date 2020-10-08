@@ -63,23 +63,10 @@
             ]
         },
         {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.3611111111111111,
-            "y": 0.25287356321839083,
-            "uniqueID": 687138,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Item1"
-                }
-            ]
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.49702380952380953,
-            "y": 0.20689655172413796,
+            "x": 0.3878968253968254,
+            "y": 0.2375478927203065,
             "uniqueID": 683469,
             "ioValues": [
                 {
@@ -89,6 +76,19 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.48710317460317454,
+            "y": 0.2375478927203065,
+            "uniqueID": 687138,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Item1"
                 }
             ]
         },
@@ -304,17 +304,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 298884,
-            "ap2ID": 687138
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 298884,
             "ap2ID": 683469
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 683469,
+            "ap2ID": 687138
         },
         {
             "ap1Name": "geometry",
