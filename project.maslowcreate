@@ -72,8 +72,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule For Testing",
-            "x": 0.08035714285714285,
-            "y": 0.6973180076628352,
+            "x": 0.10468521229868229,
+            "y": 0.6870229007633588,
             "uniqueID": 940333,
             "ioValues": [
                 {
@@ -86,8 +86,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.32242063492063494,
-                    "y": 0.35249042145593873,
+                    "x": 0.5563689604685212,
+                    "y": 0.25190839694656486,
                     "uniqueID": 832880,
                     "ioValues": []
                 },
@@ -95,9 +95,18 @@
                     "atomType": "Input",
                     "name": "Diameter",
                     "x": 0.013333333333333334,
-                    "y": 0.681992337164751,
+                    "y": 0.6793893129770993,
                     "uniqueID": 432769,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.2650073206442167,
+                    "y": 0.7290076335877863,
+                    "uniqueID": 754944,
+                    "ioValues": [],
+                    "currentEquation": "2*x"
                 },
                 {
                     "atomType": "Output",
@@ -116,9 +125,16 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "diameter",
+                    "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 432769,
+                    "ap2ID": 754944
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 754944,
                     "ap2ID": 832880
                 }
             ],
