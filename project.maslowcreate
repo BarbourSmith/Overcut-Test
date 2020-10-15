@@ -9,8 +9,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.32837301587301587,
-            "y": 0.1149425287356322,
+            "x": 0.3035714285714286,
+            "y": 0.18007662835249041,
             "uniqueID": 720552,
             "ioValues": [
                 {
@@ -34,14 +34,10 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.21329365079365079,
-            "y": 0.32567049808429116,
+            "x": 0.19047619047619047,
+            "y": 0.37164750957854403,
             "uniqueID": 672645,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "height",
                     "ioValue": 10
