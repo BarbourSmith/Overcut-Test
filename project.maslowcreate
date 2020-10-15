@@ -41,6 +41,22 @@
             ]
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.04685212298682284,
+            "y": 0.45801526717557256,
+            "uniqueID": 978475,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 10
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.4603174603174603,
@@ -72,15 +88,10 @@
         {
             "atomType": "Molecule",
             "name": "Molecule For Testing",
-            "x": 0.10468521229868229,
-            "y": 0.6870229007633588,
+            "x": 0.12152269399707176,
+            "y": 0.6908396946564885,
             "uniqueID": 940333,
-            "ioValues": [
-                {
-                    "name": "Diameter",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -226,6 +237,13 @@
             "ap2Primary": false,
             "ap1ID": 672645,
             "ap2ID": 258344
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "Diameter",
+            "ap2Primary": false,
+            "ap1ID": 978475,
+            "ap2ID": 940333
         },
         {
             "ap1Name": "geometry",
