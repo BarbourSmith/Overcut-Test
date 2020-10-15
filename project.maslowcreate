@@ -14,10 +14,6 @@
             "uniqueID": 720552,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "xDist",
                     "ioValue": 50
                 },
@@ -34,14 +30,10 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.19047619047619047,
-            "y": 0.37164750957854403,
+            "x": 0.20932539682539683,
+            "y": 0.39080459770114945,
             "uniqueID": 672645,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "height",
                     "ioValue": 10
@@ -55,10 +47,6 @@
             "y": 0.15708812260536398,
             "uniqueID": 175509,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0
@@ -79,16 +67,7 @@
             "x": 0.5565476190476191,
             "y": 0.26053639846743293,
             "uniqueID": 489521,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Union",
@@ -110,13 +89,13 @@
         {
             "atomType": "Molecule",
             "name": "Molecule For Testing",
-            "x": 0.08432539682539682,
-            "y": 0.735632183908046,
+            "x": 0.08035714285714285,
+            "y": 0.7203065134099617,
             "uniqueID": 940333,
             "ioValues": [
                 {
                     "name": "Diameter",
-                    "ioValue": 110
+                    "ioValue": 120
                 }
             ],
             "topLevel": false,
@@ -124,13 +103,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.25396825396825395,
-                    "y": 0.4137931034482759,
+                    "x": 0.2996031746031746,
+                    "y": 0.37164750957854403,
                     "uniqueID": 832880,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 110
+                            "ioValue": 120
                         }
                     ]
                 },
@@ -175,10 +154,6 @@
             "uniqueID": 429819,
             "projectID": "209940609",
             "ioValues": [
-                {
-                    "name": "Shape",
-                    "ioValue": 10
-                },
                 {
                     "name": "Angle",
                     "ioValue": 60
