@@ -83,7 +83,7 @@
             "ioValues": [
                 {
                     "name": "number",
-                    "ioValue": 120
+                    "ioValue": 110
                 }
             ],
             "evolve": false,
