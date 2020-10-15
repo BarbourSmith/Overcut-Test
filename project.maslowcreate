@@ -14,10 +14,6 @@
             "uniqueID": 720552,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "xDist",
                     "ioValue": 50
                 },
@@ -52,10 +48,6 @@
             "uniqueID": 175509,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "x-axis degrees",
                     "ioValue": 0
                 },
@@ -75,16 +67,7 @@
             "x": 0.5565476190476191,
             "y": 0.26053639846743293,
             "uniqueID": 489521,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Union",
@@ -106,10 +89,15 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.11507936507936507,
-            "y": 0.7662835249042146,
+            "x": 0.10416666666666667,
+            "y": 0.7701149425287357,
             "uniqueID": 940333,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Diameter",
+                    "ioValue": 100
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -121,9 +109,17 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 50
+                            "ioValue": 100
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Diameter",
+                    "x": 0.013333333333333334,
+                    "y": 0.681992337164751,
+                    "uniqueID": 432769,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -139,6 +135,13 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 832880
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 432769,
+                    "ap2ID": 832880
                 }
             ],
             "fileTypeVersion": 1
@@ -151,10 +154,6 @@
             "uniqueID": 429819,
             "projectID": "209940609",
             "ioValues": [
-                {
-                    "name": "Shape",
-                    "ioValue": 10
-                },
                 {
                     "name": "Angle",
                     "ioValue": 60
