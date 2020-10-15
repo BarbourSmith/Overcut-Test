@@ -128,12 +128,21 @@
         },
         {
             "atomType": "GitHubMolecule",
-            "name": "Github Molecule",
-            "x": 0.28869047619047616,
-            "y": 0.8352490421455938,
+            "name": "Rotational Pattern",
+            "x": 0.40476190476190477,
+            "y": 0.7777777777777777,
             "uniqueID": 429819,
             "projectID": "209940609",
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "Angle",
+                    "ioValue": 60
+                },
+                {
+                    "name": "Number",
+                    "ioValue": 3
+                }
+            ]
         },
         {
             "atomType": "Stl",
@@ -158,6 +167,13 @@
             "ap2Primary": true,
             "ap1ID": 720552,
             "ap2ID": 175509
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 720552,
+            "ap2ID": 429819
         },
         {
             "ap1Name": "geometry",
