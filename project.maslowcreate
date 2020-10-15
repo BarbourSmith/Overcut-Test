@@ -78,7 +78,7 @@
             "ioValues": [
                 {
                     "name": "Diameter",
-                    "ioValue": 100
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -86,8 +86,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.2996031746031746,
-                    "y": 0.37164750957854403,
+                    "x": 0.32242063492063494,
+                    "y": 0.35249042145593873,
                     "uniqueID": 832880,
                     "ioValues": []
                 },
