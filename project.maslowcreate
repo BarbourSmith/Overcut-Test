@@ -62,19 +62,6 @@
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.08630952380952381,
-            "y": 0.4789272030651341,
-            "uniqueID": 266523,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 100
-                }
-            ]
-        },
-        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.5565476190476191,
@@ -98,6 +85,46 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.11507936507936507,
+            "y": 0.7662835249042146,
+            "uniqueID": 940333,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.2628968253968254,
+                    "y": 0.47126436781609193,
+                    "uniqueID": 832880,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 50
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9801587301587301,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 832880
+                }
+            ],
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Stl",
@@ -160,13 +187,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 266523,
-            "ap2ID": 672645
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 489521
@@ -177,6 +197,13 @@
             "ap2Primary": false,
             "ap1ID": 258344,
             "ap2ID": 542663
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 940333,
+            "ap2ID": 672645
         }
     ],
     "fileTypeVersion": 1,
