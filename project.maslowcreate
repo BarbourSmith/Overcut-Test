@@ -211,10 +211,6 @@
             "projectID": "209940609",
             "ioValues": [
                 {
-                    "name": "Shape",
-                    "ioValue": 10
-                },
-                {
                     "name": "Angle",
                     "ioValue": 120
                 },
@@ -231,6 +227,19 @@
             "y": 0.6973180076628352,
             "uniqueID": 542663,
             "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7132936507936507,
+            "y": 0.6551724137931034,
+            "uniqueID": 693949,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
