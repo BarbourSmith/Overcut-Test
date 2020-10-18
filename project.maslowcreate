@@ -121,26 +121,10 @@
             ]
         },
         {
-            "atomType": "Constant",
-            "name": "Constant",
-            "x": 0.020833333333333332,
-            "y": 0.735632183908046,
-            "uniqueID": 911359,
-            "ioValues": [
-                {
-                    "name": "number",
-                    "ioValue": 110
-                }
-            ],
-            "evolve": false,
-            "min": 0,
-            "max": 20
-        },
-        {
             "atomType": "Molecule",
-            "name": "Molecule For Testing",
-            "x": 0.18154761904761904,
-            "y": 0.7203065134099617,
+            "name": 0.2,
+            "x": 0.15773809523809523,
+            "y": 0.7126436781609194,
             "uniqueID": 940333,
             "ioValues": [],
             "topLevel": false,
@@ -203,10 +187,26 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.020833333333333332,
+            "y": 0.735632183908046,
+            "uniqueID": 911359,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 110
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "GitHubMolecule",
-            "name": "Rotational Pattern",
-            "x": 0.4107142857142857,
-            "y": 0.7739463601532567,
+            "name": 0.16666666666666666,
+            "x": 0.4037698412698413,
+            "y": 0.8007662835249042,
             "uniqueID": 429819,
             "projectID": "209940609",
             "ioValues": [
@@ -330,6 +330,13 @@
             "ap2ID": 542663
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 940333,
+            "ap2ID": 672645
+        },
+        {
             "ap1Name": "number",
             "ap2Name": "x length",
             "ap2Primary": false,
@@ -342,13 +349,6 @@
             "ap2Primary": false,
             "ap1ID": 911359,
             "ap2ID": 940333
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 940333,
-            "ap2ID": 672645
         }
     ],
     "fileTypeVersion": 1,
