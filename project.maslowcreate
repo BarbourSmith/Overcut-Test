@@ -204,7 +204,7 @@
         },
         {
             "atomType": "GitHubMolecule",
-            "name": 0.16666666666666666,
+            "name": "Rotational Pattern",
             "x": 0.4037698412698413,
             "y": 0.8007662835249042,
             "uniqueID": 429819,
@@ -236,6 +236,22 @@
             "uniqueID": 927554,
             "ioValues": [],
             "selectedColorIndex": "2"
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.8511904761904762,
+            "y": 0.6628352490421456,
+            "uniqueID": 826758,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "Output",
@@ -287,12 +303,6 @@
             "ap2Primary": false,
             "ap1ID": 175509,
             "ap2ID": 258344
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 489521
         },
         {
             "ap1Name": "geometry",
@@ -349,6 +359,19 @@
             "ap2Primary": false,
             "ap1ID": 911359,
             "ap2ID": 940333
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 927554,
+            "ap2ID": 826758
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 826758
         }
     ],
     "fileTypeVersion": 1,
