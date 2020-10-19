@@ -281,6 +281,19 @@
             "ioValues": []
         },
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6636904761904763,
+            "y": 0.8199233716475096,
+            "uniqueID": 539311,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Svg",
             "name": "Svg",
             "x": 0.8125,
