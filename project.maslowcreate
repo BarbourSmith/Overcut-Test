@@ -155,6 +155,22 @@
                     "currentEquation": "2*x"
                 },
                 {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.6954365079365079,
+                    "y": 0.6551724137931034,
+                    "uniqueID": 253494,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Thing 2",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 1,
+                        "radius": 0.015384615384615385
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9801587301587301,
@@ -172,9 +188,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 832880
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 832880,
+                    "ap2ID": 253494
                 },
                 {
                     "ap1Name": "result",
@@ -182,6 +199,12 @@
                     "ap2Primary": false,
                     "ap1ID": 754944,
                     "ap2ID": 832880
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 253494
                 }
             ],
             "fileTypeVersion": 1
@@ -201,6 +224,22 @@
             "evolve": false,
             "min": 0,
             "max": 20
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7867063492063492,
+            "y": 0.31800766283524906,
+            "uniqueID": 826758,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "GitHubMolecule",
@@ -236,22 +275,6 @@
             "uniqueID": 927554,
             "ioValues": [],
             "selectedColorIndex": "2"
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.8511904761904762,
-            "y": 0.6628352490421456,
-            "uniqueID": 826758,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
         },
         {
             "atomType": "Output",
@@ -362,16 +385,16 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 826758
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 927554,
             "ap2ID": 826758
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 826758
         }
     ],
     "fileTypeVersion": 1,
