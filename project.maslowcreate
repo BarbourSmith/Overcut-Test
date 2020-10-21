@@ -117,6 +117,15 @@
             ]
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6559297218155198,
+            "y": 0.29885057471264365,
+            "uniqueID": 927554,
+            "ioValues": [],
+            "selectedColorIndex": "1"
+        },
+        {
             "atomType": "Molecule",
             "name": 0.2,
             "x": 0.15773809523809523,
@@ -281,15 +290,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.6964285714285714,
-            "y": 0.6245210727969348,
-            "uniqueID": 927554,
-            "ioValues": [],
-            "selectedColorIndex": "2"
-        },
-        {
             "atomType": "Union",
             "name": "Union",
             "x": 0.8988095238095238,
@@ -412,6 +412,20 @@
             "ap2ID": 542663
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 927554,
+            "ap2ID": 826758
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 927554,
+            "ap2ID": 224666
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -437,20 +451,6 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 826758
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 927554,
-            "ap2ID": 826758
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 927554,
-            "ap2ID": 224666
         }
     ],
     "fileTypeVersion": 1,
