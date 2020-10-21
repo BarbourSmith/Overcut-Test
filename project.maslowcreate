@@ -49,7 +49,7 @@
             "ioValues": [
                 {
                     "name": "xDist",
-                    "ioValue": 50
+                    "ioValue": 150
                 },
                 {
                     "name": "yDist",
@@ -222,6 +222,23 @@
             "max": 20
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.32064421669106885,
+            "y": 0.7854406130268199,
+            "uniqueID": 353493,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
             "x": 0.7867063492063492,
@@ -319,6 +336,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 979848,
+            "ap2ID": 353493
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 260035,
@@ -337,6 +361,13 @@
             "ap2Primary": false,
             "ap1ID": 720552,
             "ap2ID": 429819
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 720552,
+            "ap2ID": 353493
         },
         {
             "ap1Name": "geometry",
