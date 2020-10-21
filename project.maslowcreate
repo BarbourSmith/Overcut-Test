@@ -238,10 +238,6 @@
             "uniqueID": 353493,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
                     "name": "3D shape 2",
                     "ioValue": 10
                 }
@@ -333,13 +329,6 @@
             "ap2Primary": false,
             "ap1ID": 931642,
             "ap2ID": 260035
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 979848,
-            "ap2ID": 353493
         },
         {
             "ap1Name": "geometry",
