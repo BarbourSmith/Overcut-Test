@@ -71,27 +71,10 @@
             ]
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.17033492822966506,
-            "y": 0.8160919540229885,
-            "uniqueID": 558236,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
-            "x": 0.46220095693779906,
-            "y": 0.7088122605363985,
+            "x": 0.5253588516746411,
+            "y": 0.5708812260536399,
             "uniqueID": 630556,
             "ioValues": [
                 {
@@ -112,6 +95,23 @@
                 }
             ],
             "closedSelection": 0
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.17033492822966506,
+            "y": 0.8160919540229885,
+            "uniqueID": 558236,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Extrude",
@@ -180,15 +180,15 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 558236,
-            "ap2ID": 725518
+            "ap1ID": 630556,
+            "ap2ID": 666551
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 630556,
-            "ap2ID": 666551
+            "ap1ID": 558236,
+            "ap2ID": 725518
         }
     ],
     "fileTypeVersion": 1,
