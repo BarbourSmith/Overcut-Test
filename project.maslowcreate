@@ -123,6 +123,15 @@
             "selectedColorIndex": "11"
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.6842105263157895,
+            "y": 0.2720306513409962,
+            "uniqueID": 710555,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  console.log(Input1)\n  console.log(sphere())\n  return sphere({radius: 5})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.4811507936507936,
@@ -205,13 +214,30 @@
             "selectedColorIndex": "11"
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.8015873015873016,
-            "y": 0.6245210727969348,
-            "uniqueID": 710555,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  console.log(Input1)\n  console.log(sphere())\n  return sphere({radius: 5})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.8066985645933015,
+            "y": 0.6360153256704981,
+            "uniqueID": 934720,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.6985645933014354,
+            "y": 0.8199233716475096,
+            "uniqueID": 228271,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -332,6 +358,13 @@
             "ap2Primary": false,
             "ap1ID": 444264,
             "ap2ID": 687077
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 228271,
+            "ap2ID": 934720
         }
     ],
     "fileTypeVersion": 1,
