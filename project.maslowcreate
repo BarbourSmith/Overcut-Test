@@ -75,12 +75,6 @@
             "ap2Primary": true,
             "ap1ID": 701990,
             "ap2ID": 171797
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 174664
         }
     ],
     "fileTypeVersion": 1,
