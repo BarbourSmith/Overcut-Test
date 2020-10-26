@@ -171,19 +171,6 @@
             "closedSelection": 0
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.7014354066985646,
-            "y": 0.578544061302682,
-            "uniqueID": 228271,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
             "x": 0.19246031746031744,
@@ -235,6 +222,19 @@
             "ioValues": [
                 {
                     "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.7148325358851674,
+            "y": 0.7816091954022989,
+            "uniqueID": 228271,
+            "ioValues": [
+                {
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
@@ -354,17 +354,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 228271,
-            "ap2ID": 934720
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 444264,
             "ap2ID": 687077
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 228271,
+            "ap2ID": 934720
         }
     ],
     "fileTypeVersion": 1,
