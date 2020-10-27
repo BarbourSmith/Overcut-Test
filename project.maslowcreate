@@ -43,15 +43,24 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4890190336749634,
-            "y": 0.26436781609195403,
+            "x": 0.48755490483162517,
+            "y": 0.2796934865900383,
             "uniqueID": 174664,
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": -500
+                    "ioValue": -5
                 }
             ]
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6764275256222548,
+            "y": 0.5900383141762452,
+            "uniqueID": 473703,
+            "ioValues": [],
+            "selectedColorIndex": "12"
         },
         {
             "atomType": "Output",
@@ -81,6 +90,13 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 174664
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 174664,
+            "ap2ID": 473703
         }
     ],
     "fileTypeVersion": 1,
