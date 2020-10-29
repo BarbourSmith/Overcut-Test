@@ -54,6 +54,22 @@
             ]
         },
         {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.31185944363103957,
+            "y": 0.6704980842911877,
+            "uniqueID": 994700,
+            "ioValues": [
+                {
+                    "name": "number",
+                    "ioValue": 20
+                }
+            ],
+            "evolve": false,
+            "min": 0,
+            "max": 20
+        },
+        {
             "atomType": "Color",
             "name": "Color",
             "x": 0.6764275256222548,
