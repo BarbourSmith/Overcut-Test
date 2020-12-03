@@ -24,6 +24,19 @@
             ]
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4328888888888889,
+            "y": 0.5229007633587786,
+            "uniqueID": 874149,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.18933333333333335,
@@ -47,9 +60,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 262721
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 262721,
+            "ap2ID": 874149
         }
     ],
     "fileTypeVersion": 1,
