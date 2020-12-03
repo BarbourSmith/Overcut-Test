@@ -9,8 +9,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.21122994652406415,
-            "y": 0.549618320610687,
+            "x": 0.1448888888888889,
+            "y": 0.2366412213740458,
             "uniqueID": 262721,
             "ioValues": [
                 {
@@ -19,6 +19,19 @@
                 },
                 {
                     "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.18933333333333335,
+            "y": 0.7061068702290076,
+            "uniqueID": 334125,
+            "ioValues": [
+                {
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
