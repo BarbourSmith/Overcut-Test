@@ -100,6 +100,23 @@
             "ioValues": []
         },
         {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.576,
+            "y": 0.7977099236641221,
+            "uniqueID": 418982,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.7066666666666667,
@@ -146,6 +163,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 874149,
+            "ap2ID": 418982
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 991442,
@@ -164,6 +188,13 @@
             "ap2Primary": false,
             "ap1ID": 541734,
             "ap2ID": 119754
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 541734,
+            "ap2ID": 418982
         }
     ],
     "fileTypeVersion": 1,
