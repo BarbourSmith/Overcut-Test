@@ -7,18 +7,14 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.3641509433962264,
-            "y": 0.4389312977099236,
-            "uniqueID": 262721,
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.4481132075471698,
+            "y": 0.5572519083969465,
+            "uniqueID": 399788,
             "ioValues": [
                 {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
+                    "name": "diameter",
                     "ioValue": 10
                 }
             ]
