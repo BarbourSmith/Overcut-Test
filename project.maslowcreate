@@ -3,6 +3,7 @@
     "name": "Molecule",
     "x": 0,
     "y": 0,
+    "uniqueID": 205966,
     "ioValues": [],
     "topLevel": true,
     "allAtoms": [
@@ -26,6 +27,10 @@
             "y": 0.20610687022900762,
             "uniqueID": 505119,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/399788Circle"
+                },
                 {
                     "name": "height",
                     "ioValue": 10
@@ -74,6 +79,10 @@
             "uniqueID": 210211,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/671422Rectangle"
+                },
+                {
                     "name": "height",
                     "ioValue": 10
                 }
@@ -87,6 +96,10 @@
             "uniqueID": 859733,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/462108Translate"
+                },
+                {
                     "name": "tag",
                     "ioValue": "Tag String"
                 }
@@ -99,6 +112,10 @@
             "y": 0.732824427480916,
             "uniqueID": 462108,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/210211Extrude"
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -119,7 +136,12 @@
             "x": 0.7936670071501531,
             "y": 0.21374045801526717,
             "uniqueID": 264745,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/731854Assembly"
+                }
+            ],
             "selectedColorIndex": "0"
         },
         {
@@ -127,7 +149,13 @@
             "name": "Output",
             "x": 0.9702675916749256,
             "y": 0.5019157088122606,
-            "ioValues": []
+            "uniqueID": 510165,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/205966/264745Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -184,7 +212,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 264745
+            "ap1ID": 264745,
+            "ap2ID": 510165
         }
     ],
     "fileTypeVersion": 1,
