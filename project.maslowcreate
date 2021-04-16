@@ -10,8 +10,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.20040485829959515,
-            "y": 0.40458015267175573,
+            "x": 0.11437246963562753,
+            "y": 0.19083969465648853,
             "uniqueID": 751406,
             "ioValues": [
                 {
@@ -23,8 +23,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.35829959514170046,
-            "y": 0.45801526717557256,
+            "x": 0.28542510121457493,
+            "y": 0.18702290076335878,
             "uniqueID": 994247,
             "ioValues": [
                 {
@@ -38,10 +38,86 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.32287449392712547,
+            "y": 0.6030534351145038,
+            "uniqueID": 929426,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/911465Extrude"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 20
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.09109311740890688,
+            "y": 0.6908396946564885,
+            "uniqueID": 651884,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5232793522267206,
+            "y": 0.5381679389312977,
+            "uniqueID": 223109,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.20951417004048584,
+            "y": 0.7290076335877863,
+            "uniqueID": 911465,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/651884Rectangle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.5910931174089068,
-            "y": 0.6564885496183206,
+            "x": 0.7368421052631579,
+            "y": 0.24427480916030533,
             "uniqueID": 673427,
             "ioValues": [
                 {
@@ -105,6 +181,34 @@
             "ap2Primary": false,
             "ap1ID": 994247,
             "ap2ID": 510165
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 994247,
+            "ap2ID": 223109
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 929426,
+            "ap2ID": 223109
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 651884,
+            "ap2ID": 911465
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 911465,
+            "ap2ID": 929426
         }
     ],
     "fileTypeVersion": 1,
