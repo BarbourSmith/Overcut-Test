@@ -186,12 +186,7 @@
             "x": 0.9702675916749256,
             "y": 0.5019157088122606,
             "uniqueID": 510165,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "atoms/205966/994247Extrude"
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -208,13 +203,6 @@
             "ap2Primary": false,
             "ap1ID": 994247,
             "ap2ID": 673427
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 994247,
-            "ap2ID": 510165
         },
         {
             "ap1Name": "geometry",
