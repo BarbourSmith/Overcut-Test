@@ -183,7 +183,7 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.815682281059063,
+            "x": 0.8126272912423625,
             "y": 0.7099236641221374,
             "uniqueID": 601955,
             "ioValues": [],
@@ -208,30 +208,17 @@
                     "x": 0.979633401221996,
                     "y": 0.5,
                     "uniqueID": 927803,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/205966/601955/114513Circle"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 114513,
-                    "ap2ID": 927803
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9702675916749256,
-            "y": 0.5019157088122606,
+            "x": 0.9643584521384928,
+            "y": 0.5152671755725191,
             "uniqueID": 510165,
             "ioValues": []
         }
