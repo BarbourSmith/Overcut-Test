@@ -181,6 +181,53 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.815682281059063,
+            "y": 0.7099236641221374,
+            "uniqueID": 601955,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5122199592668024,
+                    "y": 0.45801526717557256,
+                    "uniqueID": 114513,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.979633401221996,
+                    "y": 0.5,
+                    "uniqueID": 927803,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/205966/601955/114513Circle"
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 114513,
+                    "ap2ID": 927803
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9702675916749256,
