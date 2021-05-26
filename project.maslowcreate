@@ -8,6 +8,15 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "GitHubMolecule",
+            "name": "M3x30 Bolt",
+            "x": 0.12487992315081653,
+            "y": 0.5114503816793893,
+            "uniqueID": 935895,
+            "projectID": "253144023",
+            "ioValues": []
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.2668187001140251,
