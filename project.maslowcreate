@@ -14,7 +14,8 @@
             "y": 0.5114503816793893,
             "uniqueID": 935895,
             "projectID": "253144023",
-            "ioValues": []
+            "ioValues": [],
+            "simplify": false
         },
         {
             "atomType": "Circle",
@@ -83,7 +84,8 @@
                     "name": "Height",
                     "ioValue": 700
                 }
-            ]
+            ],
+            "simplify": true
         },
         {
             "atomType": "Translate",
