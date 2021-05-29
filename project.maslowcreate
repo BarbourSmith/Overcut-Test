@@ -62,8 +62,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Cafe Table",
-            "x": 0.5493300852618758,
-            "y": 0.7366412213740459,
+            "x": 0.29502196193265007,
+            "y": 0.7290076335877863,
             "uniqueID": 691218,
             "projectID": "182022403",
             "ioValues": [
@@ -82,6 +82,36 @@
                 {
                     "name": "Height",
                     "ioValue": 700
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.6134699853587116,
+            "y": 0.7595419847328244,
+            "uniqueID": 941650,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/604536Extrude"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Do not simplify"
+                }
+            ]
+        },
+        {
+            "atomType": "Simplify",
+            "name": "Simplify",
+            "x": 0.752562225475842,
+            "y": 0.7748091603053435,
+            "uniqueID": 580309,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/941650Tag"
                 }
             ]
         },
@@ -120,6 +150,20 @@
             "ap2Primary": false,
             "ap1ID": 604536,
             "ap2ID": 510165
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 604536,
+            "ap2ID": 941650
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 941650,
+            "ap2ID": 580309
         }
     ],
     "fileTypeVersion": 1,
