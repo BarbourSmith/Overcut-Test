@@ -15,6 +15,7 @@
             "uniqueID": 935895,
             "projectID": "253144023",
             "ioValues": [],
+            "path": "atoms/205966/935895/389087Color",
             "simplify": false
         },
         {
@@ -85,6 +86,7 @@
                     "ioValue": 700
                 }
             ],
+            "path": "atoms/205966/691218GitHubMolecule",
             "simplify": true
         },
         {
