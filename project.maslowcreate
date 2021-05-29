@@ -166,6 +166,28 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Test Molecule",
+            "x": 0.7421319796954315,
+            "y": 0.7557251908396946,
+            "uniqueID": 682741,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9796954314720812,
+                    "y": 0.5,
+                    "uniqueID": 797911,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": true
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9643584521384928,
@@ -175,19 +197,6 @@
                 {
                     "name": "number or geometry",
                     "ioValue": "atoms/205966/415010Add-BOM-Tag"
-                }
-            ]
-        },
-        {
-            "atomType": "Simplify",
-            "name": "Simplify",
-            "x": 0.7982222222222223,
-            "y": 0.7824427480916031,
-            "uniqueID": 580309,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/452266Assembly"
                 }
             ]
         }
@@ -248,16 +257,10 @@
             "ap2Primary": false,
             "ap1ID": 415010,
             "ap2ID": 510165
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 452266,
-            "ap2ID": 580309
         }
     ],
     "fileTypeVersion": 1,
+    "simplify": false,
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
 }
