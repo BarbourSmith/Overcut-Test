@@ -14,9 +14,7 @@
             "y": 0.5114503816793893,
             "uniqueID": 935895,
             "projectID": "253144023",
-            "ioValues": [],
-            "path": "atoms/205966/935895/389087Color",
-            "simplify": false
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -71,7 +69,7 @@
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 600
+                    "ioValue": 1200
                 },
                 {
                     "name": "Length",
@@ -85,9 +83,7 @@
                     "name": "Height",
                     "ioValue": 700
                 }
-            ],
-            "path": "atoms/205966/691218GitHubMolecule",
-            "simplify": true
+            ]
         },
         {
             "atomType": "Translate",
@@ -188,9 +184,7 @@
                 }
             ],
             "allConnectors": [],
-            "fileTypeVersion": 1,
-            "simplify": true,
-            "path": "atoms/205966/682741Molecule"
+            "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
@@ -265,8 +259,6 @@
         }
     ],
     "fileTypeVersion": 1,
-    "simplify": true,
-    "path": "atoms/205966Molecule",
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
 }
