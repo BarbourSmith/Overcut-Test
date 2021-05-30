@@ -189,7 +189,8 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1,
-            "simplify": true
+            "simplify": true,
+            "path": "atoms/205966/682741Molecule"
         },
         {
             "atomType": "Output",
@@ -264,7 +265,8 @@
         }
     ],
     "fileTypeVersion": 1,
-    "simplify": false,
+    "simplify": true,
+    "path": "atoms/205966Molecule",
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
 }
