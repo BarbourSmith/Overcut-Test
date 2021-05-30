@@ -85,7 +85,7 @@
                     "ioValue": 700
                 }
             ],
-            "simplify": true
+            "simplify": false
         },
         {
             "atomType": "Translate",
