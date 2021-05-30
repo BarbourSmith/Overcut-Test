@@ -14,7 +14,9 @@
             "y": 0.5114503816793893,
             "uniqueID": 935895,
             "projectID": "253144023",
-            "ioValues": []
+            "ioValues": [],
+            "simplify": false,
+            "path": "atoms/205966/935895/389087Color"
         },
         {
             "atomType": "Circle",
@@ -83,7 +85,10 @@
                     "name": "Height",
                     "ioValue": 700
                 }
-            ]
+            ],
+            "simplify": true,
+            "path": "atoms/205966/691218GitHubMolecule",
+            "inputPath": "atoms/205966/691218/219769Color"
         },
         {
             "atomType": "Translate",
