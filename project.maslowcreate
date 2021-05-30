@@ -61,31 +61,25 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "Cafe Table",
-            "x": 0.29502196193265007,
-            "y": 0.7290076335877863,
-            "uniqueID": 691218,
-            "projectID": "182022403",
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.5871156661786238,
+            "y": 0.4236641221374046,
+            "uniqueID": 415010,
             "ioValues": [
                 {
-                    "name": "Width",
-                    "ioValue": 1200
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 1000
-                },
-                {
-                    "name": "Wood Thickness",
-                    "ioValue": 18
-                },
-                {
-                    "name": "Height",
-                    "ioValue": 700
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/604536Extrude"
                 }
             ],
-            "simplify": false
+            "BOMitem": {
+                "BOMitemName": "A thing",
+                "numberNeeded": 3,
+                "costUSD": 21,
+                "source": "www.anexample.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "Translate",
@@ -130,25 +124,51 @@
             ]
         },
         {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7146666666666667,
-            "y": 0.549618320610687,
-            "uniqueID": 415010,
+            "atomType": "Molecule",
+            "name": "Test Molecule",
+            "x": 0.6888726207906296,
+            "y": 0.48854961832061067,
+            "uniqueID": 682741,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9796954314720812,
+                    "y": 0.5,
+                    "uniqueID": 797911,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "simplify": false
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.8404099560761347,
+            "y": 0.4198473282442748,
+            "uniqueID": 841271,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/205966/604536Extrude"
+                    "ioValue": "atoms/205966/691218/219769Color"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
                 }
-            ],
-            "BOMitem": {
-                "BOMitemName": "A thing",
-                "numberNeeded": 3,
-                "costUSD": 21,
-                "source": "www.anexample.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -168,26 +188,31 @@
             ]
         },
         {
-            "atomType": "Molecule",
-            "name": "Test Molecule",
-            "x": 0.7421319796954315,
-            "y": 0.7557251908396946,
-            "uniqueID": 682741,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
+            "atomType": "GitHubMolecule",
+            "name": "Cafe Table",
+            "x": 0.7489019033674964,
+            "y": 0.7404580152671755,
+            "uniqueID": 691218,
+            "projectID": "182022403",
+            "ioValues": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9796954314720812,
-                    "y": 0.5,
-                    "uniqueID": 797911,
-                    "ioValues": []
+                    "name": "Width",
+                    "ioValue": 1200
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 1000
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 18
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 700
                 }
             ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": true
         },
         {
             "atomType": "Output",
@@ -198,7 +223,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/205966/415010Add-BOM-Tag"
+                    "ioValue": "atoms/205966/841271Translate"
                 }
             ]
         }
@@ -257,8 +282,15 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 415010,
+            "ap1ID": 841271,
             "ap2ID": 510165
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 691218,
+            "ap2ID": 841271
         }
     ],
     "fileTypeVersion": 1,
