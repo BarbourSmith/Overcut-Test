@@ -8,211 +8,177 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "GitHubMolecule",
-            "name": "M3x30 Bolt",
-            "x": 0.12487992315081653,
-            "y": 0.5114503816793893,
-            "uniqueID": 935895,
-            "projectID": "253144023",
-            "ioValues": [],
-            "simplify": false
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.2668187001140251,
-            "y": 0.48473282442748095,
-            "uniqueID": 503013,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 200
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4266666666666667,
-            "y": 0.37022900763358774,
-            "uniqueID": 604536,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/503013Circle"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.6556442417331813,
-            "y": 0.2748091603053435,
-            "uniqueID": 350068,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/604536Extrude"
-                }
-            ]
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.5871156661786238,
-            "y": 0.4236641221374046,
-            "uniqueID": 415010,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/604536Extrude"
-                }
-            ],
-            "BOMitem": {
-                "BOMitemName": "A thing",
-                "numberNeeded": 3,
-                "costUSD": 21,
-                "source": "www.anexample.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5795555555555556,
-            "y": 0.5954198473282443,
-            "uniqueID": 626329,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/604536Extrude"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 30
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.44266666666666665,
-            "y": 0.7061068702290076,
-            "uniqueID": 941650,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/604536Extrude"
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Do not simplify"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
-            "name": "Test Molecule",
-            "x": 0.6888726207906296,
-            "y": 0.48854961832061067,
-            "uniqueID": 682741,
+            "name": "Drive Gear",
+            "x": 0.3308931185944363,
+            "y": 0.47709923664122134,
+            "uniqueID": 617453,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Involute Gear",
+                    "x": 0.13813229571984437,
+                    "y": 0.28625954198473286,
+                    "uniqueID": 367728,
+                    "projectID": "307507544",
+                    "ioValues": [
+                        {
+                            "name": "Number Of Teeth",
+                            "ioValue": 29
+                        },
+                        {
+                            "name": "Circular Pitch",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "Pressure Angle",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "Clearance",
+                            "ioValue": 0
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.30739299610894943,
+                    "y": 0.2213740458015267,
+                    "uniqueID": 617279,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/205966/617453/367728/644051Code"
+                        }
+                    ],
+                    "selectedColorIndex": "4"
+                },
+                {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.4707174231332357,
+                    "y": 0.38549618320610685,
+                    "uniqueID": 149939,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Involute Gear",
+                    "x": 0.15856031128404668,
+                    "y": 0.7022900763358778,
+                    "uniqueID": 586155,
+                    "projectID": "307507544",
+                    "ioValues": [
+                        {
+                            "name": "Number Of Teeth",
+                            "ioValue": 21
+                        },
+                        {
+                            "name": "Circular Pitch",
+                            "ioValue": 4.1
+                        },
+                        {
+                            "name": "Pressure Angle",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "Clearance",
+                            "ioValue": 0
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.38035019455252916,
+                    "y": 0.8358778625954199,
+                    "uniqueID": 270343,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/205966/617453/586155/644051Code"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0.01
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9796954314720812,
+                    "x": 0.9853587115666179,
                     "y": 0.5,
-                    "uniqueID": 797911,
-                    "ioValues": []
+                    "uniqueID": 498296,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/205966/617453/149939Group"
+                        }
+                    ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 367728,
+                    "ap2ID": 617279
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 617279,
+                    "ap2ID": 149939
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 149939,
+                    "ap2ID": 498296
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 586155,
+                    "ap2ID": 270343
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 270343,
+                    "ap2ID": 149939
+                }
+            ],
             "fileTypeVersion": 1,
             "simplify": false
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.8404099560761347,
-            "y": 0.4198473282442748,
-            "uniqueID": 841271,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/205966/691218/219769Color"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6506666666666667,
-            "y": 0.7786259541984732,
-            "uniqueID": 452266,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "Cafe Table",
-            "x": 0.7489019033674964,
-            "y": 0.7404580152671755,
-            "uniqueID": 691218,
-            "projectID": "182022403",
-            "ioValues": [
-                {
-                    "name": "Width",
-                    "ioValue": 1200
-                },
-                {
-                    "name": "Length",
-                    "ioValue": 1000
-                },
-                {
-                    "name": "Wood Thickness",
-                    "ioValue": 18
-                },
-                {
-                    "name": "Height",
-                    "ioValue": 700
-                }
-            ],
-            "simplify": true
         },
         {
             "atomType": "Output",
@@ -220,79 +186,10 @@
             "x": 0.9643584521384928,
             "y": 0.5152671755725191,
             "uniqueID": 510165,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "atoms/205966/841271Translate"
-                }
-            ]
+            "ioValues": []
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 503013,
-            "ap2ID": 604536
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 604536,
-            "ap2ID": 350068
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 604536,
-            "ap2ID": 941650
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 604536,
-            "ap2ID": 626329
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 604536,
-            "ap2ID": 415010
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 626329,
-            "ap2ID": 452266
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 941650,
-            "ap2ID": 452266
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 841271,
-            "ap2ID": 510165
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 691218,
-            "ap2ID": 841271
-        }
-    ],
+    "allConnectors": [],
     "fileTypeVersion": 1,
     "simplify": true,
     "filetypeVersion": 1,
