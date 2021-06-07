@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive Gear",
-            "x": 0.26264591439688717,
-            "y": 0.3129770992366412,
+            "x": 0.26207906295754024,
+            "y": 0.33969465648854963,
             "uniqueID": 617453,
             "ioValues": [],
             "topLevel": false,
@@ -127,10 +127,44 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.5428015564202334,
+                    "y": 0.14122137404580154,
+                    "uniqueID": 307157,
+                    "ioValues": [],
+                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 = 75.439"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5252918287937743,
+                    "y": 0.31679389312977096,
+                    "uniqueID": 238191,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/205966/617453/586155/644051Code"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Involute Gear",
-                    "x": 0.5525291828793775,
-                    "y": 0.4351145038167939,
+                    "x": 0.3784046692607004,
+                    "y": 0.5305343511450381,
                     "uniqueID": 415726,
                     "projectID": "307507544",
                     "ioValues": [
@@ -152,6 +186,15 @@
                         }
                     ],
                     "simplify": false
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.6731517509727627,
+                    "y": 0.11450381679389314,
+                    "uniqueID": 335497,
+                    "ioValues": [],
+                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing of 61.275 + 13.528 = 74.803"
                 },
                 {
                     "atomType": "Rotate",
@@ -181,6 +224,31 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
+                    "x": 0.6760700389105058,
+                    "y": 0.3969465648854962,
+                    "uniqueID": 400260,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/205966/617453/238191Rotate"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 74.803
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
                     "x": 0.42509727626459143,
                     "y": 0.6870229007633588,
                     "uniqueID": 631972,
@@ -191,7 +259,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -13.846
+                            "ioValue": 75.439
                         },
                         {
                             "name": "yDist",
@@ -231,66 +299,28 @@
                     "simplify": false
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.35019455252918286,
-                    "y": 0.8511450381679388,
-                    "uniqueID": 708494,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/205966/617453/773078/644051Code"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 61.592
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Group",
                     "name": "Group",
-                    "x": 0.6011673151750972,
+                    "x": 0.49902723735408555,
                     "y": 0.7938931297709924,
                     "uniqueID": 417646,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 4",
                             "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "uniqueID": 498296,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/205966/617453/417646Group"
                         }
                     ]
                 },
                 {
                     "atomType": "Group",
                     "name": "Group",
-                    "x": 0.7441634241245135,
-                    "y": 0.8320610687022901,
-                    "uniqueID": 763212,
+                    "x": 0.8132295719844357,
+                    "y": 0.6145038167938931,
+                    "uniqueID": 246630,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
@@ -301,6 +331,14 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "uniqueID": 498296,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -333,6 +371,13 @@
                     "ap2ID": 270343
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 586155,
+                    "ap2ID": 238191
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
@@ -340,11 +385,18 @@
                     "ap2ID": 540765
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 238191,
+                    "ap2ID": 400260
+                },
+                {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 415726,
-                    "ap2ID": 763212
+                    "ap2ID": 246630
                 },
                 {
                     "ap1Name": "geometry",
@@ -355,6 +407,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 400260,
+                    "ap2ID": 246630
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 631972,
@@ -362,31 +421,10 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 773078,
-                    "ap2ID": 708494
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 773078,
-                    "ap2ID": 763212
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 708494,
                     "ap2ID": 417646
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 417646,
-                    "ap2ID": 498296
                 }
             ],
             "fileTypeVersion": 1,
