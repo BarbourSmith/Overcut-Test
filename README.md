@@ -4,9 +4,9 @@
 
 ![](/project.svg)
 
-<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The original gears had a pitch of 3 and a spacing of 61.593+13.846 = 75.439
+<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The original gears had a pitch of 3 and a spacing of 61.593+13.846 =Â 75.439
 
 
-<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The more heavy duty gears with a pitch of 5 have a spacing of 61.275 + 13.528 = 74.803
+<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The more heavy duty gears with a pitch of 5 have a spacing ofÂ 61.275 +Â 13.528 = 74.803
 
 
