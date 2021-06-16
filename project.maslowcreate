@@ -133,7 +133,7 @@
                     "y": 0.14122137404580154,
                     "uniqueID": 307157,
                     "ioValues": [],
-                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =Â 75.439"
+                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂ 75.439"
                 },
                 {
                     "atomType": "Rotate",
@@ -167,7 +167,7 @@
                     "y": 0.11450381679389314,
                     "uniqueID": 335497,
                     "ioValues": [],
-                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÂ 61.275 +Â 13.528 = 74.803"
+                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÃÂ 61.275 +ÃÂ 13.528 = 74.803"
                 },
                 {
                     "atomType": "Rotate",
@@ -443,36 +443,46 @@
             "simplify": false
         },
         {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.22717391304347825,
-            "y": 0.5610687022900763,
-            "uniqueID": 910518,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 1.23,
-                "source": "www.example.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.5891304347826086,
+            "y": 0.6870229007633588,
+            "uniqueID": 745403,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
         },
         {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.41413043478260875,
-            "y": 0.7595419847328244,
-            "uniqueID": 574065,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 1.33,
-                "source": "www.example.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.725,
+            "y": 0.7251908396946565,
+            "uniqueID": 707268,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/745403Rectangle"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 30
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -495,6 +505,13 @@
             "ap2Primary": false,
             "ap1ID": 617453,
             "ap2ID": 510165
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 745403,
+            "ap2ID": 707268
         }
     ],
     "fileTypeVersion": 1,
