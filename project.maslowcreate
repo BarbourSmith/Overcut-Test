@@ -133,7 +133,7 @@
                     "y": 0.14122137404580154,
                     "uniqueID": 307157,
                     "ioValues": [],
-                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂ 75.439"
+                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂÃÂ 75.439"
                 },
                 {
                     "atomType": "Rotate",
@@ -167,7 +167,7 @@
                     "y": 0.11450381679389314,
                     "uniqueID": 335497,
                     "ioValues": [],
-                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÃÂ 61.275 +ÃÂ 13.528 = 74.803"
+                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÃÂÃÂ 61.275 +ÃÂÃÂ 13.528 = 74.803"
                 },
                 {
                     "atomType": "Rotate",
@@ -460,27 +460,27 @@
             ]
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.725,
-            "y": 0.7251908396946565,
-            "uniqueID": 707268,
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.7231208372978116,
+            "y": 0.7442748091603054,
+            "uniqueID": 925357,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": "atoms/205966/745403Rectangle"
                 },
                 {
-                    "name": "xDist",
+                    "name": "x-axis degrees",
                     "ioValue": 0
                 },
                 {
-                    "name": "yDist",
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
                     "ioValue": 30
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
                 }
             ]
         },
@@ -511,7 +511,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 745403,
-            "ap2ID": 707268
+            "ap2ID": 925357
         }
     ],
     "fileTypeVersion": 1,
