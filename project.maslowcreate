@@ -133,7 +133,7 @@
                     "y": 0.14122137404580154,
                     "uniqueID": 307157,
                     "ioValues": [],
-                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂÃÂ 75.439"
+                    "readmeText": "The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂÃÂÃÂÃÂ 75.439"
                 },
                 {
                     "atomType": "Rotate",
@@ -167,7 +167,7 @@
                     "y": 0.11450381679389314,
                     "uniqueID": 335497,
                     "ioValues": [],
-                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÃÂÃÂ 61.275 +ÃÂÃÂ 13.528 = 74.803"
+                    "readmeText": "The more heavy duty gears with a pitch of 5 have a spacing ofÃÂÃÂÃÂÃÂ 61.275 +ÃÂÃÂÃÂÃÂ 13.528 = 74.803"
                 },
                 {
                     "atomType": "Rotate",
