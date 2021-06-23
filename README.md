@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The original gears had a pitch of 3 and a spacing of 61.593+13.846 =ÃÂÃÂÃÂÃÂ 75.439
-
-
-<h3 style="font-size:20px;"><strong>Drive Gear:</strong></h3>The more heavy duty gears with a pitch of 5 have a spacing ofÃÂÃÂÃÂÃÂ 61.275 +ÃÂÃÂÃÂÃÂ 13.528 = 74.803
-
-
