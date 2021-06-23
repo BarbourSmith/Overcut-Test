@@ -10,16 +10,33 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.7140115163147792,
-            "y": 0.4389312977099236,
+            "x": 0.5393474088291746,
+            "y": 0.366412213740458,
             "uniqueID": 458250,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 20
                 },
                 {
                     "name": "y length",
+                    "ioValue": 1
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.7092130518234165,
+            "y": 0.648854961832061,
+            "uniqueID": 128067,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/458250Rectangle"
+                },
+                {
+                    "name": "height",
                     "ioValue": 10
                 }
             ]
@@ -33,7 +50,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/205966/458250Rectangle"
+                    "ioValue": "atoms/205966/128067Extrude"
                 }
             ]
         }
@@ -41,14 +58,21 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 458250,
+            "ap2ID": 128067
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 458250,
+            "ap1ID": 128067,
             "ap2ID": 510165
         }
     ],
     "fileTypeVersion": 1,
-    "simplify": true,
+    "simplify": false,
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
 }
