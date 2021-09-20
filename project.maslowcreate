@@ -10,34 +10,93 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.5393474088291746,
-            "y": 0.366412213740458,
+            "x": 0.13689604685212298,
+            "y": 0.3969465648854962,
             "uniqueID": 458250,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 20
+                    "ioValue": 80
                 },
                 {
                     "name": "y length",
-                    "ioValue": 1
+                    "ioValue": 80
                 }
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.7092130518234165,
-            "y": 0.648854961832061,
-            "uniqueID": 128067,
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.41068814055636893,
+            "y": 0.4427480916030534,
+            "uniqueID": 580931,
             "ioValues": [
                 {
-                    "name": "geometry",
+                    "name": "3D shape 1",
                     "ioValue": "atoms/205966/458250Rectangle"
                 },
                 {
-                    "name": "height",
+                    "name": "3D shape 2",
+                    "ioValue": "atoms/205966/442336Move"
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
                     "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                }
+            ],
+            "closedSelection": 0
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.14202049780380674,
+            "y": 0.7748091603053435,
+            "uniqueID": 332398,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 70
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 70
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.2686676427525622,
+            "y": 0.8625954198473282,
+            "uniqueID": 442336,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/205966/332398Rectangle"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 90
                 }
             ]
         },
@@ -50,7 +109,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/205966/128067Extrude"
+                    "ioValue": "atoms/205966/580931ShrinkWrap"
                 }
             ]
         }
@@ -58,17 +117,31 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
             "ap1ID": 458250,
-            "ap2ID": 128067
+            "ap2ID": 580931
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 128067,
+            "ap1ID": 580931,
             "ap2ID": 510165
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 332398,
+            "ap2ID": 442336
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 442336,
+            "ap2ID": 580931
         }
     ],
     "fileTypeVersion": 1,
